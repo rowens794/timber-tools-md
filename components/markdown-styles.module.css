@@ -16,3 +16,19 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.markdown button {
+  background-color: red;
+  color: white;
+  width: 300px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(171, 171, 171, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(171, 171, 171, 1);
+  box-shadow: 2px 2px 5px 0px rgba(171, 171, 171, 1);
+}
