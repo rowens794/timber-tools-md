@@ -7,10 +7,11 @@ import PostHeader from "../../components/post-header";
 import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import PostTitle from "../../components/post-title";
+import ReadMore from "../../components/read-more";
 import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 
-export default function Post({ post, morePosts, preview }) {
+export default function Post({ post, allPosts, preview }) {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
@@ -34,6 +35,7 @@ export default function Post({ post, morePosts, preview }) {
                 <PostBody content={post.content} />
               </div>
             </article>
+            <ReadMore posts={allPosts} />
           </>
         )}
       </Container>
@@ -42,6 +44,7 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
+  const allPosts = getAllPosts(["title", "date", "slug", "author", "coverImage", "excerpt"]);
   const post = getPostBySlug(params.slug, ["title", "date", "slug", "author", "content", "ogImage", "coverImage"]);
   const content = await markdownToHtml(post.content || "");
 
@@ -51,6 +54,7 @@ export async function getStaticProps({ params }) {
         ...post,
         content,
       },
+      allPosts: allPosts,
     },
   };
 }
