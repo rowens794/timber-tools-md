@@ -6,18 +6,13 @@ export default function Footer() {
   return (
     <footer className="bg-accent-1 border-t border-accent-2">
       <Container>
-        <div className="py-8 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-right lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Timber & Tools
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-righ lg:pl-4 lg:w-1/2">
-            <Link href={"/about-us"}>
-              <a style={{ margin: "25px" }}>About Us</a>
-            </Link>
-            <Link href={"/privacy-policy"}>
-              <a style={{ margin: "25px" }}>Privacy Policy</a>
-            </Link>
-          </div>
+        <div style={{ height: "50px", padding: "10px", textAlign: "right" }}>
+          <Link href={"/about-us"}>
+            <a style={{ margin: "25px", color: "darkGrey" }}>About Us</a>
+          </Link>
+          <Link href={"/privacy-policy"}>
+            <a style={{ margin: "25px", color: "darkGrey" }}>Privacy Policy</a>
+          </Link>
         </div>
       </Container>
     </footer>
