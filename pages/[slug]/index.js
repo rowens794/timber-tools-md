@@ -29,8 +29,10 @@ export default function Post({ post, morePosts, preview }) {
                 <meta property="og:image" content={post.ogImage.url} />
                 <meta property="description" content={post.excerpt} />
               </Head>
-              <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} />
-              <PostBody content={post.content} />
+              <div style={{ maxWidth: "1140px", margin: "auto" }}>
+                <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} />
+                <PostBody content={post.content} />
+              </div>
             </article>
           </>
         )}
