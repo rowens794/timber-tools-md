@@ -1,10 +1,12 @@
 import Container from "../components/container";
-import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
+import DateFormatter from "../components/date-formatter";
+import CoverImage from "../components/cover-image";
+import Link from "next/link";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -36,6 +38,46 @@ export default function Index({ allPosts }) {
   );
 }
 
+function MoreStories({ posts }) {
+  return (
+    <section>
+      <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">More Stories</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-32">
+        {posts.map((post) => (
+          <PostPreview
+            key={post.slug}
+            title={post.title}
+            coverImage={post.coverImage}
+            date={post.date}
+            author={post.author}
+            slug={post.slug}
+            excerpt={post.excerpt}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function PostPreview({ title, coverImage, date, excerpt, slug }) {
+  return (
+    <div>
+      <div className="mb-5">
+        <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
+      </div>
+      <h3 className="text-3xl mb-3 leading-snug">
+        <Link as={`/${slug}`} href="/[slug]">
+          <a className="hover:underline">{title}</a>
+        </Link>
+      </h3>
+      <div className="text-lg mb-4">
+        <DateFormatter dateString={date} />
+      </div>
+      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+    </div>
+  );
+}
+
 export async function getStaticProps() {
   const allPosts = getAllPosts(["title", "date", "slug", "author", "coverImage", "excerpt"]);
 
@@ -43,3 +85,14 @@ export async function getStaticProps() {
     props: { allPosts },
   };
 }
+
+let stories = [
+  {
+    title: "Table Saw Buying Guide",
+    date: new Date("12/31/2020"),
+    slug: "table-saw-buying-guide",
+    author: "Ryan",
+    coverImage: "https://res.cloudinary.com/dfebwzrhb/image/upload/v1609782090/TimberTools/table-saw-guide.jpg",
+    excerpt: "",
+  },
+];
