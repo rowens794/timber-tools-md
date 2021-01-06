@@ -31,4 +31,3 @@ export async function getStaticProps() {
     props: { postObj },
   };
 }
-s;
