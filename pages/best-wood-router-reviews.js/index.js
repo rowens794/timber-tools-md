@@ -4,7 +4,7 @@ import Footer from "../../components/footer";
 import PostBody from "./postBody";
 import ReadMore from "../../components/read-more";
 import stories from "../../postComponents/postList";
-import styles from "../postStyles.module.css";
+import styles from "../../postComponents/postStyles.module.css";
 
 export default function tableSawBuyingGuide() {
   return (

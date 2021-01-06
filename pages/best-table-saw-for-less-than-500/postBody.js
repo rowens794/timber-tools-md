@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Head from "next/head";
 
-import styles from "../postStyles.module.css";
+import styles from "../../postComponents/postStyles.module.css";
 import HeroImage from "../../postComponents/heroImage";
 import PostTitle from "../../postComponents/postTitle";
 import ProductImage from "../../postComponents/productImg";
