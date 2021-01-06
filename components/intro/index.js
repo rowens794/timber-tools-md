@@ -20,9 +20,9 @@ export default function Intro() {
         </Link>
 
         <div className={styles.buildAShop}>
-          <Link href="/">
+          {/* <Link href="/">
             <a className={styles.buildAShopButton}>Build Your Shop on A Budget</a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
