@@ -86,7 +86,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <BuyButton productLink="https://amzn.to/2rXWeKW" />
 
           <p>
-            <a href="http://amzn.to/2rXWeKW">Check Prices and Reviews</a>
+            <a href="https://amzn.to/2rXWeKW">Check Prices and Reviews</a>
           </p>
           <h3>Gifts for about $100</h3>
           <p>Extra Safe Push Tools | Cost: ~$100</p>

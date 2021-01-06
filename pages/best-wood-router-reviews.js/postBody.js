@@ -45,7 +45,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <BuyButton productLink="https://amzn.to/2piJn3R" />
           <p>
             When you’re putting together a list of woodworking router reviews, it's impossible not to include this machine. The{" "}
-            <InContentProductLink text="Porter-Cable 7518" href="http://amzn.to/2piJn3R" /> is a beast of a machine. It's 3 1/4 horsepower motor will
+            <InContentProductLink text="Porter-Cable 7518" href="https://amzn.to/2piJn3R" /> is a beast of a machine. It's 3 1/4 horsepower motor will
             guarantee that you'll swing any bit you need with ease. While the Porter-Cable brand doesn't always carry the best reputation, this router
             does. This is a professional quality machine.
           </p>
@@ -83,7 +83,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <BuyButton productLink="https://amzn.to/2oUhVwo" />
           <p>
             Once we take the initial step down in power from 3 1/4HP to 2 1/4HP, the best option available is the{" "}
-            <InContentProductLink href="http://amzn.to/2oUhVwo" text="Bosch 1617" />. This package comes with both a fixed base and a plunge base. At
+            <InContentProductLink href="https://amzn.to/2oUhVwo" text="Bosch 1617" />. This package comes with both a fixed base and a plunge base. At
             2 1/4HP, this router will turn any bit you stick in it, but on some of the largest raised panel bits, you may notice a bit of hesitation.
             That being said, most people are spinning a 3 1/2" raised panel bit on the reg. For just about every other application this motor will
             perform flawlessly.
@@ -115,7 +115,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <BuyButton productLink="https://amzn.to/2oWA4a9" />
           <p>
             For those whose needs are primarily handheld, you will be best served by a tool like the{" "}
-            <InContentProductLink href="http://amzn.to/2oWA4a9" text="Dewalt DWP611PK 1 1/4 Horsepower Router" />. This is going to be your best bet
+            <InContentProductLink href="https://amzn.to/2oWA4a9" text="Dewalt DWP611PK 1 1/4 Horsepower Router" />. This is going to be your best bet
             for tasks such as:
           </p>
           <ul>

@@ -47,7 +47,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             ​My constraints were easy to overcome. I chose to use cedar, I could pick it up at Lowes and I was confident that it would hold up to the
             weather well. The joinery was simple:{" "}
-            <InContentProductLink href="http://amzn.to/2putom2" text="Stainless Steel Kreg Pocket Hole Screws" />. I decided to use these because the
+            <InContentProductLink href="https://amzn.to/2putom2" text="Stainless Steel Kreg Pocket Hole Screws" />. I decided to use these because the
             stainless steel would hold up against the elements AND I had 500 of them on hand. I didn't want to use screws in the top of the armrests,
             so I chose to use a 3/8th's inch dowel sanded flush to the cedar. In total, materials cost around $170.
           </p>

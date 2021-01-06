@@ -28,7 +28,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <PostTitle title={title} />
 
           <p>
-            In this post we are going to be unboxing the <InContentProductLink href="http://amzn.to/2r7RFxa" text="WEN 4208 8 inch Drill Press" />.
+            In this post we are going to be unboxing the <InContentProductLink href="https://amzn.to/2r7RFxa" text="WEN 4208 8 inch Drill Press" />.
             This is a great entry level machine that is super easy to get setup and ready for work. Down below I'd like to provide some insight into
             why you might actually want to consider adding this tool to your shop.
           </p>
@@ -56,8 +56,8 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </h5>
           <p>
             One of the more interesting uses is converting your drill press into a makeshift drum sander. Pick up something like{" "}
-            <InContentProductLink href="http://amzn.to/2q7DIkx" text={`Peachtree's 3" x 6" sanding drum`} /> and all of the sudden your drill press is
-            a drill pres
+            <InContentProductLink href="https://amzn.to/2q7DIkx" text={`Peachtree's 3" x 6" sanding drum`} /> and all of the sudden your drill press
+            is a drill pres
             <em>sander</em>.
           </p>
           <h5>
@@ -66,7 +66,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             If you need a 6 inch hole in a project, your options for getting it done are limited. Perhaps, you could use a jigsaw but no matter how
             steady handed you are your circle is not going to be perfect. I drill press + a{" "}
-            <InContentProductLink href="http://amzn.to/2qZvNXC" text="$15 hole cutter attachment" /> makes cutting a perfect 6" hole quick and easy.
+            <InContentProductLink href="https://amzn.to/2qZvNXC" text="$15 hole cutter attachment" /> makes cutting a perfect 6" hole quick and easy.
           </p>
           <h5>
             <strong>5. Accurate Angled Holes</strong>

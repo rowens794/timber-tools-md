@@ -124,12 +124,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             While an electric miter saw is a convenience, it is not necessary to do good work. A quality electric miter saw will run around $150-$200,
             that by itself would destroy our budget. A hand saw with a miter box does the job just as well at a fraction of the price. This highly
-            rated <InContentProductLink href="http://amzn.to/2ozeU1t" text="Stanley version for ~$60" /> should get the job done, albeit with a bit
+            rated <InContentProductLink href="https://amzn.to/2ozeU1t" text="Stanley version for ~$60" /> should get the job done, albeit with a bit
             more elbow grease.
           </p>
           <p>
             A drill is going to be a requirement. Luckily, a basic drill is all that's needed to accomplish 99% of what you'll want to do.{" "}
-            <InContentProductLink href="http://amzn.to/2p9rGXg" text="Black and Decker produces a variable speed model" /> that will do just fine for
+            <InContentProductLink href="https://amzn.to/2p9rGXg" text="Black and Decker produces a variable speed model" /> that will do just fine for
             about $40.​ But if you want to do anything with it, your going to want some bits to go with it, a reasonable quality set costs ~$20.
           </p>
           <p>
@@ -194,14 +194,14 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h2>​Upgrades from the $250 Shop</h2>
           <p>
             First, let's dump that hand powered saw/miter box. It gets the job done, but it takes forever. We're still on a lean budget, but shelling
-            out ~$110 for a <InContentProductLink href="http://amzn.to/2oWAmha" text="10 inch electric miter saw" /> makes a lot of sense. This won't
+            out ~$110 for a <InContentProductLink href="https://amzn.to/2oWAmha" text="10 inch electric miter saw" /> makes a lot of sense. This won't
             be your forever saw, but it should do fine for most projects. It can handle up to a 4x6 stock which will cover 99% of what a beginning
             wood worker will throw at it.
           </p>
           <p>
             Second, <a href="https://en.wikipedia.org/wiki/Kesuke_Miyagi">Kesuke Miyagi</a> will probably roll over in his grave - but hand sanding a
             large work piece isn't my idea of an enjoyable hobby. Luckily, a decent random orbital sander isn't all that expensive. This{" "}
-            <InContentProductLink href="http://amzn.to/2nYK6qz" text="SKIL sander" /> is highly rated and priced at just over $40.
+            <InContentProductLink href="https://amzn.to/2nYK6qz" text="SKIL sander" /> is highly rated and priced at just over $40.
           </p>
           <p>
             These two upgrades <strong>will</strong> make this a more enjoyable hobby. The total outlay at this point is $330. Let's take a look at
@@ -212,7 +212,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             One of the most heavily used tools in your shop will be your table saw. It is absolutely essential for ripping stock to size, working with
             composite material (like plywood and MDF), and venturing into the world of{" "}
             <a href="https://www.tablesawcentral.com/the-ultimate-list-of-table-saw-jigs/">wood working jigs</a>. Budget is a limiting factor in a
-            $500 build, but at $150 it is hard to pass up adding this <InContentProductLink href="http://amzn.to/2oWLH14" text="Craftsman saw" /> to
+            $500 build, but at $150 it is hard to pass up adding this <InContentProductLink href="https://amzn.to/2oWLH14" text="Craftsman saw" /> to
             your shop - even with limited funds.
           </p>
 
@@ -312,8 +312,8 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             If I had it to do over again, I would stick to an entry level miter saw and table saw until I had both the funds and need to upgrade to
             more capable saws. Because of this, I'd stick to the two saws we looked at in the $500 build: ​The Craftsman XSP{" "}
-            <InContentProductLink href="http://amzn.to/2oWOTcU" text="Craftsman Table Saw" /> for ~$150 and{" "}
-            <InContentProductLink href="http://amzn.to/2pj7bEs" text="Hitachi 10 inch Miter Saw" /> for ~110. These two additions bring our running
+            <InContentProductLink href="https://amzn.to/2oWOTcU" text="Craftsman Table Saw" /> for ~$150 and{" "}
+            <InContentProductLink href="https://amzn.to/2pj7bEs" text="Hitachi 10 inch Miter Saw" /> for ~110. These two additions bring our running
             total to just over $500.
           </p>
           <p>
@@ -326,8 +326,8 @@ export default function index({ props = { title: null, coverImage: null, excerpt
               <a>router table</a>
             </Link>{" "}
             for edge work and improved joinery capabilities, some may want to start looking at some of the interesting 3rd party jigs - two of my
-            favorites are the <InContentProductLink href="http://amzn.to/2piSP7c" text="DowelMax" /> and the{" "}
-            <InContentProductLink href="http://amzn.to/2onOUZl" text="Kreg Pocket System" />, but my recommendation would be to equip yourself to buy
+            favorites are the <InContentProductLink href="https://amzn.to/2piSP7c" text="DowelMax" /> and the{" "}
+            <InContentProductLink href="https://amzn.to/2onOUZl" text="Kreg Pocket System" />, but my recommendation would be to equip yourself to buy
             cheap stock.
           </p>
           <h2>Buying a Jointer and a Planer​</h2>
@@ -365,9 +365,9 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h2>​Jointer &#x26; Planer Recommendations</h2>
           <p>
             We have just about $500 remaining in our $1,000 shop build. That is not a lot of room to pull in these specialized tools, but you can get
-            two quality tools at this price. WEN makes both a <InContentProductLink href="http://amzn.to/2piLMvk" text="6 inch jointer" /> ($240) and
-            a <InContentProductLink href="http://amzn.to/2nvXRAX" text="12 inch planer" /> ($260) that come in right at budget. Both tools come highly
-            rated.
+            two quality tools at this price. WEN makes both a <InContentProductLink href="https://amzn.to/2piLMvk" text="6 inch jointer" /> ($240) and
+            a <InContentProductLink href="https://amzn.to/2nvXRAX" text="12 inch planer" /> ($260) that come in right at budget. Both tools come
+            highly rated.
           </p>
           <h2>Projects You'll be Equipped to Handle</h2>
           <p>
@@ -406,10 +406,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <ul>
             <li>Basic Clamps + 2x 24" Clamps + 2x 36" Clamps ~$110</li>
             <li>
-              <InContentProductLink href="http://amzn.to/2oWAf5x" text="Electric Sander" /> ~$60
+              <InContentProductLink href="https://amzn.to/2oWAf5x" text="Electric Sander" /> ~$60
             </li>
             <li>
-              <InContentProductLink href="http://amzn.to/2oWMhMi" text="Power Drill" /> ~$100
+              <InContentProductLink href="https://amzn.to/2oWMhMi" text="Power Drill" /> ~$100
             </li>
             <li>Drill Bits ~$20</li>
             <li>Router Bits ~$25</li>
@@ -425,14 +425,14 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             first tools we will want to look at will help us turn these ugly boards into something beautiful and more importantly, useable.
           </p>
           <p>
-            At this point, the WEN <InContentProductLink href="http://amzn.to/2nYxjUW" text="jointer" /> and{" "}
-            <InContentProductLink href="http://amzn.to/2ogeLRf" text="Planer" /> that we looked at earlier are still the best in our budget. Together
+            At this point, the WEN <InContentProductLink href="https://amzn.to/2nYxjUW" text="jointer" /> and{" "}
+            <InContentProductLink href="https://amzn.to/2ogeLRf" text="Planer" /> that we looked at earlier are still the best in our budget. Together
             they will set the build back $500.
           </p>
           <p>We are going to have 2 dedicated ​saws in the shop: a table saw and miter saw.</p>
           <h3>The Table Saw - Contractor over Cabinet (at this point)</h3>
           <p>
-            My​ recommendation for a $2,500 build would be the <InContentProductLink href="http://amzn.to/2ofScvL" text="Bosch 4100" />. This saw,
+            My​ recommendation for a $2,500 build would be the <InContentProductLink href="https://amzn.to/2ofScvL" text="Bosch 4100" />. This saw,
             with an absolutely amazing stand, runs ~$530. This is 3.5x more than the table saw we looked at for the last build. Let me tell you why
             you should pay it.
           </p>
@@ -472,7 +472,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
 
           <h3>Miter Saw - Dewalt DW716</h3>
           <p>
-            The <InContentProductLink href="http://amzn.to/2oUdySd" text="DW716" /> is on of the best miter saws on the market. The 12 inch blade can
+            The <InContentProductLink href="https://amzn.to/2oUdySd" text="DW716" /> is on of the best miter saws on the market. The 12 inch blade can
             handle 2"x10" cross cuts and 45 degree cuts through stock as large as 2"x8". The 15 amp motor runs at 3,600 rpm and cuts through thick
             stock without a problem.
           </p>
@@ -502,7 +502,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             <Link href="https://www.timberandtools.com/best-wood-router-reviews">
               <a>written about routers</a>
             </Link>{" "}
-            on the site before and my favorite is the <a href="http://amzn.to/2nvLGUI">Bosch 1617</a>​. It is light enough that you can control it
+            on the site before and my favorite is the <a href="https://amzn.to/2nvLGUI">Bosch 1617</a>​. It is light enough that you can control it
             when using it handheld, yet powerful enough that it won't have any problems when you mount it under a table. On top of that, it comes with
             a plunge base which makes it significantly easier to use handheld. The package clocks in at ~$190.
           </p>
@@ -510,7 +510,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             To get the most out of your router, you are going to want a router table. You may find yourself asking if you really need one - if you do,{" "}
             <a href="https://www.timberandtools.com/why-you-need-a-router-table/">check this post out</a>.​ It's one of those purchases that you won't
             truly understand how valuable it is until you have one. Given the budget of $2,500, I'd suggest looking at the{" "}
-            <InContentProductLink href="http://amzn.to/2nYmKkY" text="Bosch RA1171" /> ($150). If you want to see our favorite tables along with
+            <InContentProductLink href="https://amzn.to/2nYmKkY" text="Bosch RA1171" /> ($150). If you want to see our favorite tables along with
             write-ups, check{" "}
             <Link href="https://www.timberandtools.com/router-table-reviews">
               <a>them out here.</a>
@@ -530,7 +530,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             You'll want a vac that has a strong motor, large bucket capacity, and a reasonably long hose so that you don't have to drag it all over
-            your workspace. The <InContentProductLink href="http://amzn.to/2nYmO4c" text="Craftsman XSP" />​ Craftsman XSP has a 16 gallon bucket, a
+            your workspace. The <InContentProductLink href="https://amzn.to/2nYmO4c" text="Craftsman XSP" />​ Craftsman XSP has a 16 gallon bucket, a
             6.5 hp motor and should fit the bill nicely, it costs just over $100.
           </p>
           <h2>Projects You'll be Equipped to Handle</h2>

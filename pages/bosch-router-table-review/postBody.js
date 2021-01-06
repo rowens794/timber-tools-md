@@ -181,7 +181,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             If you are looking for a router table with a larger work surface, the{" "}
-            <InContentProductLink href="http://amzn.to/2piETKc" text="Kreg PRS1045" /> is a wonderful option that frequently jumps to the top of the
+            <InContentProductLink href="https://amzn.to/2piETKc" text="Kreg PRS1045" /> is a wonderful option that frequently jumps to the top of the
             conversation. The trade-off is that the Kreg table costs ~2.5x what the Bosch RA1171 does. For my limited budget, I'd rather save some $'s
             on the Bosch and buy myself another tool.
           </p>

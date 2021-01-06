@@ -189,7 +189,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             The miter gauge that comes with the saw is weak. I've used it two or three times and was not happy with it any of the times I've used it.
             It doesn't fit snuggly in the miter track and it's a pain to set accurately. My advice would be to not buy this saw or buy an after-market
-            miter gauge like the <InContentProductLink href="http://amzn.to/2rgSffp" text="Incra" /> if miter cuts are especially important to you.
+            miter gauge like the <InContentProductLink href="https://amzn.to/2rgSffp" text="Incra" /> if miter cuts are especially important to you.
             Any time I need to make a miter I use a dedicated miter saw.
           </p>
           <h3>Final Thoughts on the Bosch 4100</h3>
@@ -211,7 +211,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             <li>Am I willing to spend the extra money necessary to get the best worksite table saw on the market?</li>
           </ul>
           <p>
-            ​If you answer both yes, then don't hesitate. <InContentProductLink href="http://amzn.to/2qVfSJj" text="Click this link" /> to head over
+            ​If you answer both yes, then don't hesitate. <InContentProductLink href="https://amzn.to/2qVfSJj" text="Click this link" /> to head over
             to amazon.com and order the Bosch 4100 now, they'll have it shipped to you in two days. If you buy through my link you'll also buy me a
             cup of coffee (no additional expense to you of course).
           </p>

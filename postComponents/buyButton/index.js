@@ -8,8 +8,7 @@ export default function index({ productLink = null, text = "See Price & Reviews 
     ReactGA.event({
       category: "outbound",
       action: "click",
-      Label: productLink,
-      value: 0.1,
+      label: `${productLink}: Buy Button Click`,
     });
   };
 

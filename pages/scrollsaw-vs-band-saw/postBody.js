@@ -100,7 +100,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             For the occasional hobbyist, brands like Craftsman, Skil and Ryobi are just fine. These tools usually have plastic bodies, metal tables
             and light-duty motors. Expect to spend up to $200 on a good hobby scroll saw of this kind. One model to consider is the{" "}
-            <InContentProductLink href="http://amzn.to/2oWD3iW" text="Rikon 16 VS scroll saw" /> It features a tilting table, plastic blade guard and
+            <InContentProductLink href="https://amzn.to/2oWD3iW" text="Rikon 16 VS scroll saw" /> It features a tilting table, plastic blade guard and
             work light for around $199 online.
           </p>
           <ProductImage

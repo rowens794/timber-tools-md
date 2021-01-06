@@ -1,9 +1,13 @@
 import React from "react";
-import Link from "next/link";
+import ReactGA from "react-ga";
 
 export default function index({ href, text }) {
   let clickHandler = () => {
-    console.log("click");
+    ReactGA.event({
+      category: "outbound",
+      action: "click",
+      label: `${productLink}: In-Content Link Click`,
+    });
   };
 
   return (
