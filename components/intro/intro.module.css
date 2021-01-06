@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.buildAShop {
+  text-align: right;
+  padding: 35px 0;
+}
+
+.buildAShopButton {
+  border-radius: 4px;
+  background-color: #414141;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}

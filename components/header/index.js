@@ -1,10 +1,10 @@
-import { CMS_NAME } from "../lib/constants";
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./header.module.css";
 
-export default function Intro() {
+export default function Header() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
+    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
       <Link href="/">
         <a className="hover:underline">
           <Image
@@ -15,6 +15,6 @@ export default function Intro() {
           />
         </a>
       </Link>
-    </section>
+    </h2>
   );
 }

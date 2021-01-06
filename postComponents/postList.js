@@ -1,7 +1,15 @@
 export default [
   {
+    title: "The Best Cordless Jigsaws",
+    date: new Date("1/6/2020").toISOString(),
+    slug: "best-cordless-jigsaw",
+    author: "Ryan",
+    coverImage: "https://res.cloudinary.com/dfebwzrhb/image/upload/v1609955774/TimberTools/cordless-jigsaws.jpg",
+    excerpt: "In this article I’ll help you figure out which of the cordless jigsaws that are available on the market today best fits your needs.",
+  },
+  {
     title: "Table Saw Buying Guide",
-    date: new Date("1/7/2020").toISOString(),
+    date: new Date("1/5/2020").toISOString(),
     slug: "table-saw-buying-guide",
     author: "Ryan",
     coverImage: "https://res.cloudinary.com/dfebwzrhb/image/upload/v1609782090/TimberTools/table-saw-guide.jpg",
@@ -10,7 +18,7 @@ export default [
   },
   {
     title: "The Best Table Saw for Less than $500",
-    date: new Date("1/5/2020").toISOString(),
+    date: new Date("1/4/2020").toISOString(),
     slug: "best-table-saw-for-less-than-500",
     author: "Ryan",
     coverImage: "https://res.cloudinary.com/dfebwzrhb/image/upload/v1609858413/TimberTools/table-saw-Hero.jpg",
