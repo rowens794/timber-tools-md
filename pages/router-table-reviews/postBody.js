@@ -11,7 +11,7 @@ import InContentProductLink from "../../postComponents/inContentProductLink";
 import YoutubeVideo from "../../postComponents/youtubeVideo";
 import helpers from "../../postComponents/helpers";
 
-export default function index({ props }) {
+export default function index({ props = { title: null, coverImage: null, excerpt: null } }) {
   let { title, coverImage, excerpt } = props;
 
   return (
