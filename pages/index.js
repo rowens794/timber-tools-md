@@ -10,7 +10,7 @@ import Link from "next/link";
 
 import stories from "../postComponents/postList";
 
-export default function Index({ allPosts }) {
+export default function Index() {
   const heroPost = stories[0];
   const morePosts = stories.slice(1);
   return (

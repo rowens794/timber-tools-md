@@ -1,5 +1,4 @@
 import React from "react";
-import { useRouter } from "next/router";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -10,11 +9,9 @@ import ProductImage from "../../postComponents/productImg";
 import BuyButton from "../../postComponents/buyButton";
 import InContentProductLink from "../../postComponents/inContentProductLink";
 import YoutubeVideo from "../../postComponents/youtubeVideo";
-import helpers from "../../postComponents/helpers";
 
-export default function tableSawBuyingGuide() {
-  const router = useRouter();
-  let { title, coverImage, excerpt } = helpers.getTitleAndHero(router.pathname);
+export default function index({ props }) {
+  let { title, coverImage, excerpt } = props;
 
   return (
     <>

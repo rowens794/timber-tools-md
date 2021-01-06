@@ -2,13 +2,14 @@ import posts from "../postComponents/postList";
 
 let exports = {};
 
-exports.getTitleAndHero = (route) => {
+exports.getTitleAndHero = () => {
   let object = {};
+
   posts.forEach((post) => {
     object[post.slug] = post;
   });
 
-  return object[route.replace("/", "")];
+  return object;
 };
 
 export default exports;
