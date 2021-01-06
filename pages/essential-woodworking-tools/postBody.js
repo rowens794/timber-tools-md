@@ -57,15 +57,13 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             - Raise is an interesting site where individuals can buy and sell gift cards at a discount. Gift Cards for stores like Lowe's and Home
             Depot typically go for 3-5% below face, not too exciting. But Sear's and Harbor Freight are usually between 10-20% off.
           </p>
-          <p>
-            <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden">
-              <ProductImage
-                src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Raise-Screen.png"
-                alt="Raise"
-                title="Raise"
-              />
-            </a>
-          </p>
+          <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden">
+            <ProductImage
+              src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Raise-Screen.png"
+              alt="Raise"
+              title="Raise"
+            />
+          </a>
           <p>
             <strong>
               <a href="https://www.ebates.com/home-garden-tools/power-hand-tools">Ebates.com</a>
@@ -74,15 +72,13 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             compel me to purchase on their own. But if you get an extra 3-5% cash back over your entire $250 budget, it can add up to an extra hand
             tool for doing nothing more than using their link to an online store.
           </p>
-          <p>
-            <a href="https://www.ebates.com/home-garden-tools/power-hand-tools">
-              <ProductImage
-                src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Ebates-Screen.png"
-                alt="Ebates"
-                title="Ebates"
-              />
-            </a>
-          </p>
+          <a href="https://www.ebates.com/home-garden-tools/power-hand-tools">
+            <ProductImage
+              src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Ebates-Screen.png"
+              alt="Ebates"
+              title="Ebates"
+            />
+          </a>
           <p>
             <strong>
               <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324">Slickdeals.net</a>
@@ -91,15 +87,13 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             it is not uncommon at all to save 25% - 50% off retail with the deals on the site. The link above takes you directly to tool specific
             deals on the slickdeals forums.
           </p>
-          <p>
-            <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324">
-              <ProductImage
-                src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Slickdeals-Screen.png"
-                alt="Slickdeals"
-                title="Slickdeals"
-              />
-            </a>
-          </p>
+          <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324">
+            <ProductImage
+              src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Slickdeals-Screen.png"
+              alt="Slickdeals"
+              title="Slickdeals"
+            />
+          </a>
           <h2>The Tools for the Job</h2>
           <p>
             Now that you know where to look, let's talk about what to look for. First, consider the fundamentals of what you're going to be doing.

@@ -6,13 +6,13 @@ export default function index({ href, text }) {
     ReactGA.event({
       category: "outbound",
       action: "click",
-      label: `${productLink}: In-Content Link Click`,
+      label: `${href}: In-Content Link Click`,
     });
   };
 
   return (
-    <div onClick={clickHandler}>
-      <a href={href}>{text}</a>
-    </div>
+    <a onClick={clickHandler} href={href}>
+      {text}
+    </a>
   );
 }

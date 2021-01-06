@@ -13,8 +13,8 @@ export default function index({ productLink = null, text = "See Price & Reviews 
   };
 
   return (
-    <div className={styles.container} onClick={clickHandler}>
-      <a className={styles.link} href={productLink}>
+    <div className={styles.container}>
+      <a className={styles.link} href={productLink} onClick={clickHandler}>
         <p className={styles.button1}>{text}</p>
       </a>
     </div>
