@@ -11,8 +11,8 @@ export default function index({ href, text }) {
   };
 
   return (
-    <a href={href} onClick={clickHandler}>
-      {text}
-    </a>
+    <div onClick={clickHandler}>
+      <a href={href}>{text}</a>
+    </div>
   );
 }
