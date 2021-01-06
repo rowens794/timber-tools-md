@@ -17,6 +17,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
     <>
       <Head>
         <meta name="description" content={excerpt} />
+        <title>{title}</title>
       </Head>
       <article>
         <div className={styles.postContainer}>

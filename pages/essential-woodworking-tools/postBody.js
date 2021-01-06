@@ -17,6 +17,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
     <>
       <Head>
         <meta name="description" content={excerpt} />
+        <title>{title}</title>
       </Head>
       <article>
         <div className={styles.postContainer}>
@@ -58,7 +59,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden">
-              <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Raise-Screen.png" />
+              <ProductImage
+                src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Raise-Screen.png"
+                alt="Raise"
+                title="Raise"
+              />
             </a>
           </p>
           <p>
@@ -71,7 +76,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             <a href="https://www.ebates.com/home-garden-tools/power-hand-tools">
-              <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Ebates-Screen.png" />
+              <ProductImage
+                src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Ebates-Screen.png"
+                alt="Ebates"
+                title="Ebates"
+              />
             </a>
           </p>
           <p>
@@ -84,7 +93,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324">
-              <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Slickdeals-Screen.png" />
+              <ProductImage
+                src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Slickdeals-Screen.png"
+                alt="Slickdeals"
+                title="Slickdeals"
+              />
             </a>
           </p>
           <h2>The Tools for the Job</h2>
