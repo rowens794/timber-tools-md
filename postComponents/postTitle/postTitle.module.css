@@ -1,0 +1,49 @@
+.container {
+}
+
+.title {
+  font-size: 4rem;
+  padding: 3rem 0;
+  line-height: 5rem;
+  font-weight: bold;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .title {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    line-height: 3rem;
+    font-weight: bold;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+    padding: 2.5rem 0;
+    line-height: 4rem;
+    font-weight: bold;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .title {
+    font-size: 4rem;
+    padding: 3rem 0;
+    line-height: 5rem;
+    font-weight: bold;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .title {
+    font-size: 4rem;
+    padding: 3rem 0;
+    line-height: 5rem;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,11 @@
+.postWrapper {
+  padding-bottom: 6rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.postContainer {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}

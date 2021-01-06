@@ -8,9 +8,11 @@ import DateFormatter from "../components/date-formatter";
 import CoverImage from "../components/cover-image";
 import Link from "next/link";
 
+import stories from "../postComponents/postList";
+
 export default function Index({ allPosts }) {
-  const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
+  const heroPost = stories[0];
+  const morePosts = stories.slice(1);
   return (
     <>
       <Layout>
@@ -67,7 +69,9 @@ function PostPreview({ title, coverImage, date, excerpt, slug }) {
       </div>
       <h3 className="text-3xl mb-3 leading-snug">
         <Link as={`/${slug}`} href="/[slug]">
-          <a className="hover:underline">{title}</a>
+          <a className="hover:underline" style={{ color: "black" }}>
+            {title}
+          </a>
         </Link>
       </h3>
       <div className="text-lg mb-4">
@@ -85,14 +89,3 @@ export async function getStaticProps() {
     props: { allPosts },
   };
 }
-
-let stories = [
-  {
-    title: "Table Saw Buying Guide",
-    date: new Date("12/31/2020"),
-    slug: "table-saw-buying-guide",
-    author: "Ryan",
-    coverImage: "https://res.cloudinary.com/dfebwzrhb/image/upload/v1609782090/TimberTools/table-saw-guide.jpg",
-    excerpt: "",
-  },
-];

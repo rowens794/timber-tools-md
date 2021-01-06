@@ -17,7 +17,9 @@ export default function HeroPost({ title, coverImage, date, excerpt, author, slu
         <div>
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
             <Link as={`/${slug}`} href="/[slug]">
-              <a className="hover:underline">{title}</a>
+              <a className="hover:underline" style={{ color: "black" }}>
+                {title}
+              </a>
             </Link>
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
@@ -26,7 +28,6 @@ export default function HeroPost({ title, coverImage, date, excerpt, author, slu
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>
     </section>

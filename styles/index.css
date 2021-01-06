@@ -1,6 +1,43 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
+h2 {
+  font-size: 2.5rem;
+  padding: 2.5rem 0 0 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 2rem 0 0 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 0;
+}
+
+p {
+  padding: 1rem 0 0 0;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+li:before {
+  content: "-  ";
+}
 
 /* Start purging... */
 @tailwind components;
