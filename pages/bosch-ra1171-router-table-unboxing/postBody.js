@@ -28,7 +28,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>In this post we are going to open up the table, put it together and I'll let you know what I think.</p>
           <p>
             If you read TimberAndTools.com often, you'll know that I am a big fan of the{" "}
-            <Link href="https://www.timberandtools.com/why-you-need-a-router-table/">
+            <Link href="/why-you-need-a-router-table">
               <a>added functionality a router table provides</a>
             </Link>
             . For the longest time, I hung my router upside down from a piece of oak on my table saw. This was workable, but I was tired of battling
@@ -43,7 +43,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             Not long ago, back when I was daydreaming about a new router table, I wrote a{" "}
-            <Link href="https://www.timberandtools.com/router-table-reviews/">
+            <Link href="/router-table-reviews">
               <a>post that documented the research I was doing to find the right table for myself</a>
             </Link>
             . From that work, I knew I would be deciding between two options: The Bosch RA1171 or the Benchdog Pro Top. The Benchdog was enticing but

@@ -150,7 +150,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h2>Comparison To the "Other" Bosch Router Table</h2>
           <p>
             There are a number of competing router tables out there and I've actually written the most popular ones up in my post on the{" "}
-            <Link href="https://www.timberandtools.com/router-table-reviews/">
+            <Link href="/router-table-reviews">
               <a>Top Router Tables Available in 2020</a>
             </Link>
             , however, most of you will probably be thinking: "Well what's the difference between the Bosch RA1171 vs Bosch RA1181?"

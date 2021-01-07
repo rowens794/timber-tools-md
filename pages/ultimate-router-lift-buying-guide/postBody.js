@@ -30,9 +30,9 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             can already do. Well... If that truly was the case, why did you end up here.
           </p>
           <p>
-            Sure, you can maneuver your bit up and down without a lift. But not without an annoying amount of difficulty. Best case - you need to duck
-            your head under your table to find the adjustment know, release the locking mechanism, and then hope you can eye-ball a workable height
-            adjustment. It's just not an efficient process.
+            Sure, you can maneuver your bit up and down without a router lift, but not without an annoying amount of difficulty. Best case - you need
+            to duck your head under your table to find the adjustment knob, release the locking mechanism, and then hope you can eye-ball a workable
+            height adjustment. It's just not an efficient process.
           </p>
           <p>
             A router table allows you to change your work flow so that everything occurs above the table. Need to raise the bit 1/16th of an inch -
@@ -40,16 +40,16 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             adjustment crank a 1/8th turn. The accuracy that can be achieved with a lift is truly unparalleled.
           </p>
           <p>
-            But that's not the only reason you would lay down semi-serious cash on an accessory. A router lift allows you to raise the chuck
-            completely above the table. No longer do you have to engage in under-table acrobatics to change a bit. If you have a small table, like I
-            do, the frequency of bashed knuckles drops precipitously.
+            But that's not the only reason you would lay down semi-serious cash on an accessory. A lift allows you to raise the chuck completely above
+            the router lift plate . No longer do you have to engage in under-table acrobatics to change a bit. If you have a small table, like I do,
+            the frequency of bashed knuckles drops precipitously.
           </p>
           <p>
             Accurate adjustments and easy bit changes are amazing and worth the purchase price by themselves. The kicker is the amount of time you
-            save by adding a router lift to you setup. When you no longer have to battle the router motor to make gross adjustments or eyeball bit
-            height in the hopes that your cut will be accurate, the time you invest in each cut falls dramatically. If your anything like me it's hard
-            to trust the adjustments that you do make - so you end up having to make test cuts after every adjustment. A router lift eliminates the
-            need guess and test.
+            save by adding a lift to you setup. When you no longer have to battle the router motor to make gross adjustments or eyeball bit height in
+            the hopes that your cut will be accurate, the time you invest in each cut falls dramatically. If your anything like me it's hard to trust
+            the adjustments that you do make - so you end up having to make test cuts after every adjustment. A lift eliminates the need guess and
+            test.
           </p>
           <h3>​Standard Features of Router Lifts</h3>
           <p>
@@ -106,8 +106,8 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </ul>
           <h3>How Much Will Do You Need to Spend?</h3>
           <p>
-            You guessed it - it depends. The mainstream router lifts run between $180 and $360. The price you pay is going to be highly dependent on
-            the features you want and the size of your router motor. If you motor is larger than 3.5" your going to be at the high end of the range.
+            You guessed it - it depends. The mainstream lifts run between $180 and $360. The price you pay is going to be highly dependent on the
+            features you want and the size of your router motor. If you motor is larger than 3.5" your going to be at the high end of the range.
           </p>
           <p>
             I want to provide a break down of what it is you'll be looking at before we dig into comparisons. First, there are 4 major brands - the
@@ -254,11 +254,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <h3>Why You Should Consider the JessEm Rout-R-Lift II </h3>
           <p>
-            ​The Rout-R-Lift II is the lower end router lift that JessEm produces, but this is still a high quality piece of equipment. Matt Heere
-            produced a great review (and shows some lift setup) in the video I'll include at the bottom of this section. As you can see when Matt is
-            installing the motor into the lift, the motor is secured with a clamping mechanism. So while JessEm only lists a few models as being
-            compatible with the lift, it is very likely any 3.5" motor would fit securely into the lift. The reason this lift costs less than it's
-            bigger brother is due to the fact that it cannot support the bigger 4.14" and 4.2" router motors.
+            ​The Rout-R-Lift II is the low end lift that JessEm produces, but this is still a high quality piece of equipment. Matt Heere produced a
+            great review (and shows some lift setup) in the video I'll include at the bottom of this section. As you can see when Matt is installing
+            the motor into the lift, the motor is secured with a clamping mechanism. So while JessEm only lists a few models as being compatible with
+            the lift, it is very likely any 3.5" motor would fit securely into the lift. The reason this lift costs less than it's bigger brother is
+            due to the fact that it cannot support the bigger 4.14" and 4.2" router motors.
           </p>
 
           <YoutubeVideo videoId="AO6KxCy-zg4" />
@@ -284,9 +284,9 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             ​The Woodpeckers PRL-V2 is our absolute favorite router lift. There are two reasons why: 1. the spring loaded motor raising and lower
             feature that we looked at earlier, and 2. the thumb wheel that is easily accessible for micro adjustments to the motor height. Both of
             these features significantly enhance the ease of operation of this lift relative to the others, and after all, this purchase is primarily
-            motivated by convenience and ease of use. Another nice feature about the Woodpecker router lift is the availability of a lift that will
-            fit your needs no matter what. There are 6 versions of this router available: a 350, 414, and 420 each with either an 8 1/4" plate or a 9
-            1/4" plate. So when you are buying this lift make sure you match the model up with the router and table insert size for your outfit. Each
+            motivated by convenience and ease of use. Another nice feature about the Woodpecker lift is the availability of a lift that will fit your
+            needs no matter what. There are 6 versions of this router available: a 350, 414, and 420 each with either an 8 1/4" plate or a 9 1/4"
+            plate. So when you are buying this lift make sure you match the model up with the router and table insert size for your outfit. Each
             version is priced the same at $360. Check out Thintz12's video review down below.
           </p>
 

@@ -69,7 +69,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </ul>
           <p>
             I've talked about{" "}
-            <Link href="https://www.timberandtools.com/essential-woodworking-tools/">
+            <Link href="/essential-woodworking-tools">
               <a>outfitting your shop</a>
             </Link>{" "}
             in other posts, but basic tools will do everything you need in this project. The one piece of equipment that some of the newest folks to
@@ -178,7 +178,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             to woodworking and wondering what tools you need to complete a project like this, everything you need can be had in the $500 shop we
             talked about in the{" "}
             <strong>
-              <Link href="https://www.timberandtools.com/essential-woodworking-tools/">
+              <Link href="/essential-woodworking-tools">
                 <a>post about putting a shop together</a>
               </Link>
             </strong>

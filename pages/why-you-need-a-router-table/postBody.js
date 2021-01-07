@@ -37,7 +37,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             A table allows you to make perfect passes each time supported by both the table top and the fence. Additionally, making precise height
             adjustments is far easier in a table, especially one that is fitted with a{" "}
-            <Link href="https://www.timberandtools.com/ultimate-router-lift-buying-guide/">
+            <Link href="/ultimate-router-lift-buying-guide">
               <a>router lift</a>
             </Link>
             .​
@@ -82,7 +82,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             Check out my favorite{" "}
-            <Link href="https://www.timberandtools.com/router-table-reviews/">
+            <Link href="/router-table-reviews">
               <a>Router Tables​ here</a>
             </Link>{" "}
             , of course, if your up to it building a router table yourself is certainly a do-able project.

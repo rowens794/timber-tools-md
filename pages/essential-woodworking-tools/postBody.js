@@ -312,11 +312,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             ​There are some diverging paths that you could take at this point: some may want to get a{" "}
-            <Link href="https://www.timberandtools.com/best-wood-router-reviews">
+            <Link href="/best-wood-router-reviews">
               <a>router</a>
             </Link>{" "}
             with a{" "}
-            <Link href="https://www.timberandtools.com/router-table-reviews">
+            <Link href="/router-table-reviews">
               <a>router table</a>
             </Link>{" "}
             for edge work and improved joinery capabilities, some may want to start looking at some of the interesting 3rd party jigs - two of my
@@ -493,7 +493,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h3>Router Equipment to Look At</h3>
           <p>
             We've{" "}
-            <Link href="https://www.timberandtools.com/best-wood-router-reviews">
+            <Link href="/best-wood-router-reviews">
               <a>written about routers</a>
             </Link>{" "}
             on the site before and my favorite is the <a href="https://amzn.to/2nvLGUI">Bosch 1617</a>​. It is light enough that you can control it
@@ -502,11 +502,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             To get the most out of your router, you are going to want a router table. You may find yourself asking if you really need one - if you do,{" "}
-            <a href="https://www.timberandtools.com/why-you-need-a-router-table/">check this post out</a>.​ It's one of those purchases that you won't
-            truly understand how valuable it is until you have one. Given the budget of $2,500, I'd suggest looking at the{" "}
+            <a href="/why-you-need-a-router-table/">check this post out</a>.​ It's one of those purchases that you won't truly understand how valuable
+            it is until you have one. Given the budget of $2,500, I'd suggest looking at the{" "}
             <InContentProductLink href="https://amzn.to/2nYmKkY" text="Bosch RA1171" /> ($150). If you want to see our favorite tables along with
             write-ups, check{" "}
-            <Link href="https://www.timberandtools.com/router-table-reviews">
+            <Link href="/router-table-reviews">
               <a>them out here.</a>
             </Link>
           </p>

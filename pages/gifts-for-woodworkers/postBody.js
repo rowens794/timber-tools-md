@@ -133,7 +133,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             If your plan is to go big and help a loved one make a major addition to their shop, this is the section for you. I would recommend that
             you check out our post on{" "}
-            <Link href="https://www.timberandtools.com/essential-woodworking-tools/">
+            <Link href="/essential-woodworking-tools">
               <a>Setting Up a Shop for Any Budget</a>
             </Link>{" "}
             - It will help give you some ideas of what tools are especially important to have in the shop at the beginning stages of this hobby.
@@ -160,7 +160,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             If you do go this route (pun intended) also consider a router table to mount the router in. We wrote up an{" "}
-            <Link href="https://www.timberandtools.com/router-table-reviews/">
+            <Link href="/router-table-reviews">
               <a>article about our favorites</a>
             </Link>{" "}
             a while back.

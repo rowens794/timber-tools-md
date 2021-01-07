@@ -65,7 +65,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             This is the most expensive router on this list, so it's important to understand why you would pay the extra money for it. The reason and
             the only reason is - the motor is massive at 3 1/4 horsepower. This machine will spin any bit you stick in it without a hiccup. While it
             is possible to use this router handheld, you will get the most out of it by sticking it under a table. (I took a look at my favorite
-            tables <Link href="https://www.timberandtools.com/router-table-reviews">here</Link>)
+            tables <Link href="/router-table-reviews">here</Link>)
           </p>
           <p>
             There are two downsides to this otherwise spectacular machine: First, it's expensive - it runs ~$350 new. Second, it's heavy, with a fixed
