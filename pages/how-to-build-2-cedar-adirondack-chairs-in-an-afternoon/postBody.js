@@ -21,7 +21,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       </Head>
       <article>
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
 
           <p>
@@ -84,7 +84,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             was cut, I traced the pattern onto the remaining boards. Everything lined up nicely right from the start, but I did clamp everything
             together and use 40 grit sandpaper to make sure everything was perfectly aligned.
           </p>
-          <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522288/TimberTools/IMG_3102.jpg" alt="" title="" />
+          <ProductImage
+            src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522288/TimberTools/IMG_3102.jpg"
+            alt="Building Adirondack Chairs"
+            title="Building Adirondack Chairs"
+          />
           <h3>Step 2 - Cutting the Back Rails</h3>
           <p>
             ​With the toughest cut out of the way I wanted to finish up, the band saw work. Next on the list were the top and bottom back rails. These
@@ -93,7 +97,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             drew 8 small curves that were doable. In the picture below you can see my curve was pretty thick, I cut on the outside edge of the curve I
             drew.
           </p>
-          <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3105.jpg" alt="" title="" />
+          <ProductImage
+            src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3105.jpg"
+            alt="Building Adirondack Chairs"
+            title="Building Adirondack Chairs"
+          />
           <h3>Step 3 - Cutting the Arms and Supports</h3>
           <p>
             The plans do a great job of laying the dimensions of both the armrest and the supports. They are both easy cuts on a band saw. Because
@@ -111,21 +119,33 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             The plans were also lacking in explaining the width of the seat planks. I opted for 1 3/4" so I could get two sets out of each 1"x4" board
             that I had.
           </p>
-          <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3108.jpg" alt="" title="" />
+          <ProductImage
+            src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3108.jpg"
+            alt="Building Adirondack Chairs"
+            title="Building Adirondack Chairs"
+          />
           <h3>Step 4 - Assembly Round 1</h3>
           <p>
             Making cut after cut gets a bit tedious. The most exciting part of every project is the assembly. Seeing a project come together is what
             makes this hobby fun. You'll notice in the pictures below that the joinery is pretty simple; I'm using screws across the board (pun
             intended). I did have enough forethought to think to use stainless steel screws to prevent rust as the weather.
           </p>
-          <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3111.jpg" alt="" title="" />
+          <ProductImage
+            src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3111.jpg"
+            alt="Building Adirondack Chairs"
+            title="Building Adirondack Chairs"
+          />
           <h3>Step 5 - Assembly Round 2</h3>
           <p>
             As I mentioned above figuring out the height of the back riser did take some thought. While I'm sure there's a more exact way to determine
             what the height of the riser should have been, my strategy consisted of guess and check until I could get a board to lay flush on both the
             top and bottom back rails.
           </p>
-          <ProductImage src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3117.jpg" alt="" title="" />
+          <ProductImage
+            src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522311/TimberTools/IMG_3117.jpg"
+            alt="Building Adirondack Chairs"
+            title="Building Adirondack Chairs"
+          />
           <h3>Step 6 - Cutting Back Panels and Final Assembly</h3>
           <p>
             At this point, I have something that looks a lot like a chair. I have one final decision to make and that is how I want to shape the chair
@@ -144,8 +164,8 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609522288/TimberTools/Adirondack-Chair-Build-e1536634088898.jpg"
-            alt=""
-            title=""
+            alt="Building Adirondack Chairs"
+            title="Building Adirondack Chairs"
           />
           <h2>Wrap Up </h2>
           <p>

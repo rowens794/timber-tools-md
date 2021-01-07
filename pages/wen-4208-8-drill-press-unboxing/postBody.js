@@ -22,7 +22,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       <article>
         {" "}
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
 
           <p>

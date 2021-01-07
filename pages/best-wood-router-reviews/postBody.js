@@ -20,7 +20,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       </Head>
       <article>
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
           <p>
             If you've come looking for the best wood router reviews of {new Date().getFullYear()}, you’re in the right place. Before we dive in, there

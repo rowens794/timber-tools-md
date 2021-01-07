@@ -21,7 +21,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       </Head>
       <article>
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
           <p>
             In other posts, I’ve spent some time looking at table saws for folks on a budget such as in my{" "}

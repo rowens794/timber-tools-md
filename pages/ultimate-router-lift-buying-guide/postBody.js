@@ -21,7 +21,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       </Head>
       <article>
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
 
           <h3>​Why Should You Spend a Few Hundred Dollars on a Router Lift?</h3>

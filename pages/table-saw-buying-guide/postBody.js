@@ -22,7 +22,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       <article>
         {" "}
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
           <p>
             In this, my first post of 2021, I’m going to provide you with the low down on setting yourself up with the right table saw. We are going

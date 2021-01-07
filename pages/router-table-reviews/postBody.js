@@ -22,7 +22,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
       </Head>
       <article>
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
           <p>
             Of course, being a woodworker you could always build your own table. This is reasonable option for those that don't already have an
