@@ -242,7 +242,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             fall below the $500 mark, you just have to watch it consistently over time.
           </p>
           <p>
-            I’ve actually done a full write-up on this saw and you can read more about it <a href="www.timberandtools.com/bosch-4100-review">here</a>.
+            I’ve actually done a full write-up on this saw and you can read more about it{" "}
+            <Link href="/bosch-4100-review">
+              <a>here</a>
+            </Link>
+            .
           </p>
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609778546/TimberTools/bosch-4100xc.jpg"

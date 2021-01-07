@@ -16,6 +16,7 @@ export default function Index() {
     <>
       <Layout>
         <Head>
+          <meta name="description" content="The place to get unbiased and entertaining information about woodworking and tools." />
           <title>Timber & Tools</title>
         </Head>
         <div style={{ maxWidth: "1140px", margin: "auto" }}>

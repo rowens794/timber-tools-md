@@ -127,7 +127,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             alt="Rikon-10-305"
             title="Rikon-10-305"
           />
-          <BuyButton productLink="2oWD3iW" />
+          <BuyButton productLink="https://amzn.to/2oWD3iW" />
           <p>
             Decent stationary bandsaws run anywhere from $750 to $1500 or more. You want a heavy saw to reduce vibration and a powerful motor. Look
             for something with 1-¼ horsepower or more, multiple speeds and a lot of resaw capacity (12" or so). Jet's 14" Deluxe Pro Bandsaw, Model

@@ -312,11 +312,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             ​There are some diverging paths that you could take at this point: some may want to get a{" "}
-            <Link href="https://www.timberandtools.com/best-wood-router-reviews-spring-2017/">
+            <Link href="https://www.timberandtools.com/best-wood-router-reviews">
               <a>router</a>
             </Link>{" "}
             with a{" "}
-            <Link href="https://www.timberandtools.com/our-top-router-table-reviews-of-2017/">
+            <Link href="https://www.timberandtools.com/router-table-reviews">
               <a>router table</a>
             </Link>{" "}
             for edge work and improved joinery capabilities, some may want to start looking at some of the interesting 3rd party jigs - two of my

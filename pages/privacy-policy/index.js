@@ -10,6 +10,7 @@ export default function Index() {
       <Layout>
         <Head>
           <title>Timber & Tools</title>
+          <meta name="description" content="Learn about how we take your privacy seriously." />
         </Head>
         <Container>
           <div style={{ maxWidth: "1140px", margin: "auto" }}>
@@ -114,10 +115,11 @@ export default function Index() {
             If there are any questions regarding this privacy policy, you may contact us using the information below. <br /> <br />
             timberandtools.com 4204 Staunton Ave SE Charleston, West Virginia 25304 United States <br /> <br />
             toolguy@timberandtools.com
-            <br /> <br /> Last Edited on 2017-05-12
+            <br /> <br /> Last Edited on 2020-12-21
             <br /> <br />
             <br /> <br />
           </div>
+          <Footer />
         </Container>
       </Layout>
     </>
