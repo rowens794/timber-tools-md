@@ -22,7 +22,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
         <div className={styles.postContainer}>
           <HeroImage img={coverImage} />
           <PostTitle title={title} />
-          <p>
+          {/* <p>
             If you've come looking for the best wood router reviews of {new Date().getFullYear()}, you’re in the right place. Before we dive in, there
             are a couple of questions you need to ask yourself:
           </p>
@@ -147,7 +147,6 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             why you'd want a handheld router, George Vondriska over at Woodworkers Guild of America put together a great demonstration in the video
             below.
           </p>
-          <p>​</p>
           <h2>The Best Wood Router of {new Date().getFullYear()}</h2>
           <p>
             Saying there is 1 best router is meaningless. The potential uses for this tool are so varied that you have to choose the best tool for
@@ -159,7 +158,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             <li>If you know you are going to be mounting your router under a table and turning large, heavy bits, then get the Porter-Cable.</li>
             <li>If the work you plan on doing is primarily trim or handheld, the Dewalt is a no-brainer.</li>
             <li>If you'll be doing a mixture of table and handheld, or even if you’re not entirely sure, get the Bosch.</li>
-          </ul>
+          </ul> */}
         </div>
       </article>
     </>
