@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import PostBody from "./postBody";
+import PostBody from "./postbody";
 import ReadMore from "../../components/read-more";
 import stories from "../../postComponents/postList";
 import styles from "../../postComponents/postStyles.module.css";

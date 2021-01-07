@@ -8,7 +8,6 @@ import PostTitle from "../../postComponents/postTitle";
 import ProductImage from "../../postComponents/productImg";
 import BuyButton from "../../postComponents/buyButton";
 import InContentProductLink from "../../postComponents/inContentProductLink";
-import YoutubeVideo from "../../postComponents/youtubeVideo";
 
 export default function index({ props = { title: null, coverImage: null, excerpt: null } }) {
   let { title, coverImage, excerpt } = props;
