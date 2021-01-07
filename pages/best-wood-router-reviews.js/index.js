@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import PostBody from "./postBodyForBWRR";
+import PostBody from "./postBody";
 import ReadMore from "../../components/read-more";
 import stories from "../../postComponents/postList";
 import styles from "../../postComponents/postStyles.module.css";
@@ -16,7 +16,7 @@ export default function index({ postObj }) {
     <>
       <div className={styles.postWrapper}>
         <Header />
-        <PostBody props={postObj[router.pathname.replace("/", "")]} />
+        {/* <PostBody props={postObj[router.pathname.replace("/", "")]} /> */}
         <ReadMore posts={stories} />
       </div>
       <Footer />
@@ -24,10 +24,10 @@ export default function index({ postObj }) {
   );
 }
 
-export async function getStaticProps() {
-  let postObj = helpers.getTitleAndHero();
+// export async function getStaticProps() {
+//   let postObj = helpers.getTitleAndHero();
 
-  return {
-    props: { postObj },
-  };
-}
+//   return {
+//     props: { postObj },
+//   };
+// }
