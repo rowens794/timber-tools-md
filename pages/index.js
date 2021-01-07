@@ -2,7 +2,6 @@ import Container from "../components/container";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import DateFormatter from "../components/date-formatter";
 import CoverImage from "../components/cover-image";
@@ -80,12 +79,4 @@ function PostPreview({ title, coverImage, date, excerpt, slug }) {
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
     </div>
   );
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllPosts(["title", "date", "slug", "author", "coverImage", "excerpt"]);
-
-  return {
-    props: { allPosts },
-  };
 }
