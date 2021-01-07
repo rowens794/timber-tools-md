@@ -5,9 +5,9 @@ import Head from "next/head";
 import styles from "../../postComponents/postStyles.module.css";
 import HeroImage from "../../postComponents/heroImage";
 import PostTitle from "../../postComponents/postTitle";
-// import ProductImage from "../../postComponents/productImg";
-// import BuyButton from "../../postComponents/buyButton";
-// import InContentProductLink from "../../postComponents/inContentProductLink";
+import ProductImage from "../../postComponents/productImg";
+import BuyButton from "../../postComponents/buyButton";
+import InContentProductLink from "../../postComponents/inContentProductLink";
 
 export default function index({ props = { title: null, coverImage: null, excerpt: null } }) {
   let { title, coverImage, excerpt } = props;
@@ -22,7 +22,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
         <div className={styles.postContainer}>
           <HeroImage img={coverImage} />
           <PostTitle title={title} />
-          {/* <p>
+          <p>
             If you've come looking for the best wood router reviews of {new Date().getFullYear()}, you’re in the right place. Before we dive in, there
             are a couple of questions you need to ask yourself:
           </p>
@@ -158,7 +158,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             <li>If you know you are going to be mounting your router under a table and turning large, heavy bits, then get the Porter-Cable.</li>
             <li>If the work you plan on doing is primarily trim or handheld, the Dewalt is a no-brainer.</li>
             <li>If you'll be doing a mixture of table and handheld, or even if you’re not entirely sure, get the Bosch.</li>
-          </ul> */}
+          </ul>
         </div>
       </article>
     </>
