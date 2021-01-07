@@ -5,9 +5,9 @@ import Head from "next/head";
 import styles from "../../postComponents/postStyles.module.css";
 import HeroImage from "../../postComponents/heroImage";
 import PostTitle from "../../postComponents/postTitle";
-import ProductImage from "../../postComponents/productImg";
-import BuyButton from "../../postComponents/buyButton";
-import InContentProductLink from "../../postComponents/inContentProductLink";
+// import ProductImage from "../../postComponents/productImg";
+// import BuyButton from "../../postComponents/buyButton";
+// import InContentProductLink from "../../postComponents/inContentProductLink";
 
 export default function index({ props = { title: null, coverImage: null, excerpt: null } }) {
   let { title, coverImage, excerpt } = props;
