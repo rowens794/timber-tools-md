@@ -16,10 +16,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
   return (
     <>
       <Head>
-        <meta
-          name="description"
-          content="In this post we take a look at the best Routers on the market in 2021.  A router is a great addition to you woodworking toolkit and can take your production to the next level."
-        />
+        <meta name="description" content={excerpt} />
         <title>{title}</title>
       </Head>
       <article>
