@@ -9,7 +9,7 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>Timber & Tools</title>
+          <title>About Timber & Tools</title>
           <meta name="description" content="Timber and Tools is a woodworking based blog." />
         </Head>
         <Container>
@@ -31,7 +31,7 @@ export default function Index() {
               links.  If you do enjoy our material and you see us talking about a tool you are interested in, please purchase through our link - it'll
               help us to continue to bring great content to you. We are a participant in the Amazon Services LLC Associates Program, an affiliate
               advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites. If you'd like to
-              learn more about our Privacy Policy check it out <a href="https://www.timberandtools.com/about-us/privacy-policy/">here</a>.​
+              learn more about our Privacy Policy check it out <a href="https://www.timberandtools.com/privacy-policy/">here</a>.​
             </p>
           </div>
         </Container>

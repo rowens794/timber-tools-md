@@ -9,7 +9,7 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>Timber & Tools</title>
+          <title>Timber & Tools Privacy Policy</title>
           <meta name="description" content="Learn about how we take your privacy seriously." />
         </Head>
         <Container>
