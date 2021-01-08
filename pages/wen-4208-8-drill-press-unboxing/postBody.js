@@ -72,8 +72,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             While most projects don't call for an angled hole of any kind, when you need to cut them a drill press is a necessity. Some presses come
             with an adjustable table, but for those that don't{" "}
-            <a href="http://www.woodworkersjournal.com/adjustable-angle-drilling-jig/">creating an angle jig </a>for a drill press is a simple enough
-            task.
+            <a href="http://www.woodworkersjournal.com/adjustable-angle-drilling-jig/" target="_blank">
+              creating an angle jig{" "}
+            </a>
+            for a drill press is a simple enough task.
           </p>
           <h3>What's In the Video</h3>
           <p>

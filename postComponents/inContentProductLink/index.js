@@ -11,7 +11,7 @@ export default function index({ href, text }) {
   };
 
   return (
-    <a onClick={clickHandler} href={href}>
+    <a onClick={clickHandler} href={href} target="_blank">
       {text}
     </a>
   );

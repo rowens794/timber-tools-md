@@ -7,9 +7,8 @@ import HeroImage from "../../postComponents/heroImage";
 import PostTitle from "../../postComponents/postTitle";
 import ProductImage from "../../postComponents/productImg";
 import BuyButton from "../../postComponents/buyButton";
-import InContentProductLink from "../../postComponents/inContentProductLink";
-import YoutubeVideo from "../../postComponents/youtubeVideo";
-import helpers from "../../postComponents/helpers";
+import ComparisonTable from "../../postComponents/comparisonTable";
+import ProductFeatures from "../../postComponents/productFeatures";
 
 export default function index({ props = { title: null, coverImage: null, excerpt: null } }) {
   let { title, coverImage, excerpt } = props;
@@ -63,7 +62,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             Given that we are talking about CORDLESS tools here, this is a big deal and it is one of the biggest factors that separates the pro models
             vs consumer models. If you want to read more about it Popular Mechanics has a great{" "}
-            <a href="https://www.popularmechanics.com/home/tools/a8109/whats-so-great-about-brushless-motor-power-tools/">article</a>.
+            <a href="https://www.popularmechanics.com/home/tools/a8109/whats-so-great-about-brushless-motor-power-tools/" target="_blank">
+              article
+            </a>
+            .
           </p>
           <h3>Cordless Jigsaws Sold Without Batteries</h3>
           <p>
@@ -114,77 +116,144 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             Pro/Pro-Sumer/Consumer categories.
           </p>
           <h3>Professional Grade Jig Saws</h3>
+          <ComparisonTable list={proSaws} />
           <p>
             The professional grade market is dominated by three players: DeWalt, Makita and Milwaukee. Each of their tools are roughly equivalent and
             all very high quality. If your willing to spend the money on any of these you’ll end up with a great saw. Of course, the primary deciding
             factor will be whether or not you already have batteries from one of these brands.
           </p>
           <h4>DEWALT 20V MAX Jig Saw, Barrel Grip - DCS335B</h4>
-          <p>Max 3,200 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Brushless Motor</p>
-          <p>Barrel Grip</p>
-          <p>Typical Price ~$200</p>
-          <BuyButton productLink="https://amzn.to/3pVrxmM" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/DEWALT-DCS335B.jpg"
             alt="DEWALT 20V MAX XR Jig Saw - DCS335B"
             title="DEWALT 20V MAX XR Jig Saw - DCS335B"
           />
+          <p>
+            With 470 reviews and a 4.8 star rating on Amazon, it's clear that the Dewalt DCS335B is a solid jigsaw. This professional saw features a
+            max cutting speed of 3200 strokes per minute with variable speed that is controlled by the the trigger.It has a brushless motor which
+            means more power and battery life while your using it.
+          </p>
+          <p>
+            This saw normally sells for around $191.99 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3pVrxmM" />
+          <ProductFeatures
+            features={[
+              "3200 Max RPM",
+              "Professional Grade",
+              "1 in Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Brushless Motor",
+              "Average Price: $191.99",
+            ]}
+          />
           <h4>DEWALT 20V MAX XR Jig Saw - DCS334B</h4>
-          <p>Max 3,200 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Brushless Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$200</p>
-          <BuyButton productLink="https://amzn.to/3oo5u7C" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/DEWALT-DCS334B.jpg"
             alt="DEWALT 20V MAX XR Jig Saw - DCS334B"
             title="DEWALT 20V MAX XR Jig Saw - DCS334B"
           />
+          <p>
+            With 1824 reviews and a 4.9 star rating on Amazon, it's clear that the Dewalt DCS334B is a great saw. This professional saw features a max
+            cutting speed of 3200 strokes per minute with variable speed that is controlled by the the trigger.It has a brushless motor which means
+            more power and battery life while your using it.
+          </p>
+          <p>
+            This saw normally sells for around $190.00 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3oo5u7C" />
+          <ProductFeatures
+            features={[
+              "3200 Max RPM",
+              "Professional Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Brushless Motor",
+              "Average Price: $190.00",
+            ]}
+          />
           <h4>Makita XVJ02Z 18-Volt LXT Cordless Jig Saw</h4>
-          <p>Max 3,500 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Brushless Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$240</p>
-          <BuyButton productLink="https://amzn.to/3bdYTZZ" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/Makita-XVJ02Z.jpg"
             alt="Makita XVJ02Z 18-Volt LXT Cordless Jig Saw"
             title="Makita XVJ02Z 18-Volt LXT Cordless Jig Saw"
           />
-          <h4>Makita XVJ02Z 18-Volt LXT Cordless Barrel Grip Jig Saw</h4>
-          <p>Max 3,500 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Brushless Motor</p>
-          <p>Barrel Grip</p>
-          <p>Typical Price ~$240</p>
+          <p>
+            With 231 reviews and a 4.7 star rating on Amazon, the Makita XVJ02Z will serve you well. This professional saw features a max cutting
+            speed of 3500 strokes per minute with variable speed that is controlled by the the trigger.It has a brushless motor which means more power
+            and battery life while your using it.
+          </p>
+          <p>
+            This saw normally sells for around $239.99 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
           <BuyButton productLink="https://amzn.to/3bdYTZZ" />
+          <ProductFeatures
+            features={[
+              "3500 Max RPM",
+              "Professional Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Brushless Motor",
+              "Average Price: $239.99",
+            ]}
+          />
+          <h4>Makita XVJ01Z 18V LXT Brushless Barrel Grip Jig Saw</h4>
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/Makita-XVJ02Z.jpg"
             alt="Makita XVJ02Z 18-Volt LXT Cordless Jig Saw"
             title="Makita XVJ02Z 18-Volt LXT Cordless Jig Saw"
+          />
+          <p>
+            With 163 reviews and a 4.7 star rating on Amazon, the Makita XVJ01Z is a good performer. This professional saw features a max cutting
+            speed of 3500 strokes per minute with variable speed that is controlled by the the trigger.It has a brushless motor which means more power
+            and battery life while your using it.
+          </p>
+          <p>
+            This saw normally sells for around $239.99 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3bdYTZZ" />
+          <ProductFeatures
+            features={[
+              "3500 Max RPM",
+              "Professional Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Brushless Motor",
+              "Average Price: $239.99",
+            ]}
           />
           <h4>Milwaukee Fuel Top Handle Jigsaw 18V</h4>
-          <p>Max 3,500 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Brushless Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$200</p>
-          <BuyButton productLink="https://amzn.to/3hM1rj4" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/Milwaukee-M18-FJS-0X.jpg"
             alt="Milwaukee Fuel Top Handle Jigsaw 18V"
             title="Milwaukee Fuel Top Handle Jigsaw 18V"
           />
+          <p>
+            With 74 reviews and a 4.8 star rating on Amazon, it's clear that the Milwaukee Fuel is a solid jigsaw. This professional saw features a
+            max cutting speed of 3500 strokes per minute with variable speed that is controlled by the the trigger.It has a brushless motor which
+            means more power and battery life while your using it.
+          </p>
+          <p>
+            This saw normally sells for around $199.00 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3hM1rj4" />
+          <ProductFeatures
+            features={[
+              "3500 Max RPM",
+              "Professional Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Brushless Motor",
+              "Average Price: $199.00",
+            ]}
+          />
           <h3>Prosumer Grade Jig Saws</h3>
+          <ComparisonTable list={prosumerSaws} />
           <p>
             As we step down from the professional grade into pro-sumer grade territory we tend to lose the brushless motors. These tools are still
             very durable and powerful, but not quite as energy efficient as the pro-models.
@@ -194,116 +263,348 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             batteries.
           </p>
           <h4>Makita XVJ03Z 18V LXT Cordless Jig Saw</h4>
-          <p>Max 2,600 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$125</p>
-          <BuyButton productLink="https://amzn.to/3bd7n3j" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/Makita-XVJ03Z.jpg"
             alt="Makita XVJ03Z 18V LXT Cordless Jig Saw"
             title="Makita XVJ03Z 18V LXT Cordless Jig Saw"
           />
+          <p>
+            With 661 reviews and a 4.8 star rating on Amazon, the Makita XVJ03Z is a good choice. This pro-sumer saw features a max cutting speed of
+            2600 strokes per minute with variable speed that is controlled by the the trigger.It does have a traditional motor, but it is still plenty
+            powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional grade saw.
+          </p>
+          <p>
+            This saw normally sells for around $125.00 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3bd7n3j" />
+          <ProductFeatures
+            features={[
+              "2600 Max RPM",
+              "Pro-Sumer Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Traditional Motor",
+              "Average Price: $125.00",
+            ]}
+          />
           <h4>DEWALT 20V Max Jig Saw - DCS331B</h4>
-          <p>Max 3,000 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$130</p>
-          <BuyButton productLink="https://amzn.to/3pX5kEW" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/DEWALT-DCS331B.jpg"
             alt="DEWALT 20V Max Jig Saw - DCS331B"
             title="DEWALT 20V Max Jig Saw - DCS331B"
           />
+          <p>
+            With 2637 reviews and a 4.8 star rating on Amazon, the Dewalt DCS331B is a solid jigsaw. This pro-sumer saw features a max cutting speed
+            of 3000 strokes per minute with variable speed that is controlled by the the trigger.It does have a traditional motor, but it is still
+            plenty powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional grade saw.
+          </p>
+          <p>
+            This saw normally sells for around $130.00 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3pX5kEW" />
+          <ProductFeatures
+            features={[
+              "3000 Max RPM",
+              "Pro-Sumer Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Traditional Motor",
+              "Average Price: $130.00",
+            ]}
+          />
           <h4>BOSCH JSH180B 18-Volt Lithium-Ion Cordless Jig Saw </h4>
-          <p>Max 2,700 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$150</p>
-          <BuyButton productLink="https://amzn.to/2JPUfGf" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/BOSCH-JSH180B.jpg"
             alt="BOSCH JSH180B 18-Volt Lithium-Ion Cordless Jig Saw"
             title="BOSCH JSH180B 18-Volt Lithium-Ion Cordless Jig Saw"
           />
+          <p>
+            With 383 reviews and a 4.8 star rating on Amazon, the Bosch JSH180B is a good jigsaw. This pro-sumer saw features a max cutting speed of
+            2700 strokes per minute with variable speed that is controlled by the the trigger.It does have a traditional motor, but it is still plenty
+            powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional grade saw.
+          </p>
+          <p>
+            This saw normally sells for around $149.00 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/2JPUfGf" />
+          <ProductFeatures
+            features={[
+              "2700 Max RPM",
+              "Pro-Sumer Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Traditional Motor",
+              "Average Price: $149.00",
+            ]}
+          />
           <h4>BOSCH JS120BN 12-volt Max Cordless Jig Saw</h4>
-          <p>Max 2,800 RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Dial</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Barrel Grip</p>
-          <p>Typical Price ~$120</p>
-          <BuyButton productLink="https://amzn.to/3nhWuQk" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/BOSCH-JS120BN.jpg"
             alt="BOSCH JS120BN 18-Volt Lithium-Ion Cordless Jig Saw"
             title="BOSCH JS120BN 18-Volt Lithium-Ion Cordless Jig Saw"
           />
+          <p>
+            With 272 reviews and a 4.5 star rating on Amazon, the Bosch JS120BN is a solid jigsaw. This pro-sumer saw features a max cutting speed of
+            2800 strokes per minute with variable speed that is controlled by the a dial.It does have a traditional motor, but it is still plenty
+            powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional grade saw.
+          </p>
+          <p>
+            This saw normally sells for around $120.00 on at major retailers, but the price does fluctuate from time to time. There is a link to
+            Amazon below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3nhWuQk" />
+          <ProductFeatures
+            features={[
+              "2800 Max RPM",
+              "Pro-Sumer Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Dial",
+              "Traditional Motor",
+              "Average Price: $120.00",
+            ]}
+          />
           <h3>Consumer Grade Jig Saws</h3>
+          <ComparisonTable list={consumerSaws} />
           <p>
             Finally, we get to the consumer grade jig saws. You begin to see a pretty sharp fall off in features with these saws, however, you also
             see a steep decline in prices as well.
           </p>
           <h4>CRAFTSMAN CMCS600B V20 Cordless Jig Saw</h4>
-          <p>Max 500 RPM</p>
-          <p>3/4 inch Cutting Stroke</p>
-          <p>Variable Speed</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$80</p>
-          <BuyButton productLink="https://amzn.to/396Cuej" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/CRAFTSMAN-CMCS600B.jpg"
             alt="CRAFTSMAN CMCS600B V20 Cordless Jig Saw"
             title="CRAFTSMAN CMCS600B V20 Cordless Jig Saw"
           />
+          <p>
+            With 338 reviews and a 4.7 star rating on Amazon, it's clear that the Craftsman CMCS600B is a solid jigsaw. This consumer saw features a
+            max cutting speed of 500 strokes per minute with variable speed that is controlled by the a dial.It does have a traditional motor, but it
+            is still plenty powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional grade
+            saw.
+          </p>
+          <p>
+            This saw normally sells for around $75.00 on at major retailers, but the price does fluctuate from time to time. There is a link to Amazon
+            below if you want to check where the price is at today.
+          </p>
+          <ProductFeatures
+            features={[
+              "500 Max RPM",
+              "Consumer Grade",
+              ".75 inch Inch Stroke Length",
+              "Variable Speed Dial",
+              "Traditional Motor",
+              "Average Price: $75.00",
+            ]}
+          />
+          <BuyButton productLink="https://amzn.to/396Cuej" />
           <h4>Ryobi One+ P5231 18V Lithium Ion </h4>
-          <p>Max 3,000RPM</p>
-          <p>1 inch Cutting Stroke</p>
-          <p>Variable Speed Dial</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$70</p>
-          <BuyButton productLink="https://amzn.to/3nfyOfb" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/Ryobi-One-P5231.jpg"
             alt="Ryobi One+ P5231 18V Lithium Ion"
             title="Ryobi One+ P5231 18V Lithium Ion"
           />
+          <p>
+            With 477 reviews and a 4.8 star rating on Amazon, it's the Ryobi One+ P5231 is a good light duty saw. This consumer saw features a max
+            cutting speed of 3000 strokes per minute with variable speed that is controlled by the a dial.It does have a traditional motor, but it is
+            still plenty powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional grade
+            saw.
+          </p>
+          <p>
+            This saw normally sells for around $69.00 on at major retailers, but the price does fluctuate from time to time. There is a link to Amazon
+            below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/3nfyOfb" />
+          <ProductFeatures
+            features={[
+              "3000 Max RPM",
+              "Consumer Grade",
+              "1 inch Inch Stroke Length",
+              "Variable Speed Dial",
+              "Traditional Motor",
+              "Average Price: $69.00",
+            ]}
+          />
           <h4>PORTER-CABLE PCC650B 20V MAX Jig Saw</h4>
-          <p>Max 2,500RPM</p>
-          <p>3/4 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$60</p>
-          <BuyButton productLink="https://amzn.to/35wL3hJ" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/PORTER-CABLE-PCC650B.jpg"
             alt="PORTER-CABLE PCC650B 20V MAX Jig Saw"
             title="PORTER-CABLE PCC650B 20V MAX Jig Saw"
           />
+          <p>
+            With 1329 reviews and a 4.7 star rating on Amazon, it's clear that the Porter-Cable PCC650B is a solid jigsaw. This consumer saw features
+            a max cutting speed of 2500 strokes per minute with variable speed that is controlled by the the trigger.It does have a traditional motor,
+            but it is still plenty powerful and efficient to finish any job you might throw at, it just might take a little longer than a professional
+            grade saw.
+          </p>
+          <p>
+            This saw normally sells for around $60.00 on at major retailers, but the price does fluctuate from time to time. There is a link to Amazon
+            below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/35wL3hJ" />
+          <ProductFeatures
+            features={[
+              "2500 Max RPM",
+              "Consumer Grade",
+              ".75 inch Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Traditional Motor",
+              "Average Price: $60.00",
+            ]}
+          />
           <h4>BLACK+DECKER BDCJS20B 20V MAX Jig Saw</h4>
-          <p>Max 2,500RPM</p>
-          <p>3/4 inch Cutting Stroke</p>
-          <p>Variable Speed Trigger</p>
-          <p>Non-Brushless (Traditional) Motor</p>
-          <p>Traditional Grip</p>
-          <p>Typical Price ~$50</p>
-          <BuyButton productLink="https://amzn.to/2La8GWf" />
           <ProductImage
             src="https://res.cloudinary.com/dfebwzrhb/image/upload/c_scale,w_500/v1609955450/TimberTools/BLACK_DECKER-BDCJS20B.jpg"
             alt="BLACK+DECKER BDCJS20B 20V MAX Jig Saw"
             title="BLACK+DECKER BDCJS20B 20V MAX Jig Saw"
           />
+          <p>
+            With 652 reviews and a 4.6 star rating on Amazon, the Black & Decker BDCJS20B is a decent saw, but I'm not sure it's one that would serve
+            wood-workers well. This is a tool for light duty DIY projects. This consumer saw features a max cutting speed of 2500 strokes per minute
+            with variable speed that is controlled by the Yes - trigger.It does have a traditional motor, but it is still plenty powerful and
+            efficient to finish any job you might throw at, it just might take a little longer than a professional grade saw.
+          </p>
+          <p>
+            This saw normally sells for around $48.99 on at major retailers, but the price does fluctuate from time to time. There is a link to Amazon
+            below if you want to check where the price is at today.
+          </p>
+          <BuyButton productLink="https://amzn.to/2La8GWf" />
+          <ProductFeatures
+            features={[
+              "2500 Max RPM",
+              "Consumer Grade",
+              ".75 inche Inch Stroke Length",
+              "Variable Speed Trigger",
+              "Traditional Motor",
+              "Average Price: $48.99",
+            ]}
+          />{" "}
         </div>
       </article>
     </>
   );
 }
+
+//all elements in the table must have the same keys
+//Table headings are created from the keys
+const proSaws = [
+  {
+    Model: "Dewalt DCS335B",
+    "Average Price": "$191.99",
+    Grip: "Barrel",
+    Motor: "Brushless",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/3pVrxmM",
+  },
+  {
+    Model: "Dewalt DCS334B",
+    "Average Price": "$190.00",
+    Grip: "Traditional",
+    Motor: "Brushless",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/3oo5u7C",
+  },
+  {
+    Model: "Makita XVJ02Z",
+    "Average Price": "$239.99",
+    Grip: "Traditional",
+    Motor: "Brushless",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/3bdYTZZ",
+  },
+  {
+    Model: "Makita XVJ01Z",
+    "Average Price": "$239.99",
+    Grip: "Barrel",
+    Motor: "Brushless",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/393qomk",
+  },
+  {
+    Model: "Milwaukee Fuel",
+    "Average Price": "$199.00",
+    Grip: "Traditional",
+    Motor: "Brushless",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/3hM1rj4",
+  },
+];
+
+const prosumerSaws = [
+  {
+    Model: "Bosch JSH180B",
+    "Average Price": "$149.00",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/2JPUfGf",
+  },
+  {
+    Model: "Dewalt DCS331B",
+    "Average Price": "$130.00",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/3pX5kEW",
+  },
+  {
+    Model: "Makita XVJ03Z",
+    "Average Price": "$125.00",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/3bd7n3j",
+  },
+  {
+    Model: "Ridgid R8832B",
+    "Average Price": "$125.00",
+    Grip: "Traditional",
+    Motor: "Brushless",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/395r3DD",
+  },
+  {
+    Model: "Bosch JS120BN",
+    "Average Price": "$120.00",
+    Grip: "Barrel",
+    Motor: "Traditional",
+    "Variable Speed": "Dial",
+    "Amazon Link": "https://amzn.to/3nhWuQk",
+  },
+];
+
+const consumerSaws = [
+  {
+    Model: "Black & Decker BDCJS20B",
+    "Average Price": "$48.99",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/2La8GWf",
+  },
+  {
+    Model: "Craftsman CMCS600B",
+    "Average Price": "$75.00",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Dial",
+    "Amazon Link": "https://amzn.to/396Cuej",
+  },
+  {
+    Model: "Porter-Cable PCC650B",
+    "Average Price": "$60.00",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Trigger",
+    "Amazon Link": "https://amzn.to/35wL3hJ",
+  },
+  {
+    Model: "Ryobi One+ P5231",
+    "Average Price": "$69.00",
+    Grip: "Traditional",
+    Motor: "Traditional",
+    "Variable Speed": "Dial",
+    "Amazon Link": "https://amzn.to/3nfyOfb",
+  },
+];

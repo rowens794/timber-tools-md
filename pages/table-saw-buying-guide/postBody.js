@@ -299,10 +299,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             than 5 years later.
           </p>
           <p>
-            Any time I get this question I always recommend the <a href="https://amzn.to/3rUZNQG">Bosch 4100</a>. It may seem like a pricey saw for a
-            new woodworker, but it’s the type of saw that will grow along with you. Another thing to keep in mind is that it holds its value very well
-            and if you decide later on that the hobby isn’t for you, you should be able to get pretty close to your original purchase price selling
-            the saw on craigslist or Facebook.
+            Any time I get this question I always recommend the <InContentProductLink href="https://amzn.to/3rUZNQG" text="Bosch 4100" />. It may seem
+            like a pricey saw for a new woodworker, but it’s the type of saw that will grow along with you. Another thing to keep in mind is that it
+            holds its value very well and if you decide later on that the hobby isn’t for you, you should be able to get pretty close to your original
+            purchase price selling the saw on craigslist or Facebook.
           </p>
         </div>
       </article>

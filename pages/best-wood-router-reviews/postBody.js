@@ -53,7 +53,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             <li>
               A 5-speed motor that ranges from 10k - 21k rpm. Slower speeds are absolutely essential for getting clean cuts with larger bits, and the
               ability to use large bits is the primary reason why you pay up for a 3 1/4 HP motor. (Wood Magazine has a great{" "}
-              <a href="http://www.woodmagazine.com/woodworking-tips/techniques/routing/speed">about this.</a>)
+              <a href="http://www.woodmagazine.com/woodworking-tips/techniques/routing/speed" target="_blank">
+                about this.
+              </a>
+              )
             </li>
             <li>
               A soft start motor, which reduces torque as the motor initiates. This might seem like a small thing, but it will make handheld use of

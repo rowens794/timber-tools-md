@@ -121,20 +121,28 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>This saw comes with a host of features that help to make sure it's being used as safely as possible​.</p>
           <ul>
             <li>
-              ​<a href="https://www.rockler.com/how-to/riving-blade-important-shop-safety/">Riving Knife</a> - the Bosch 4100 comes with a riving
-              knife that sits directly behind the blade. The knife is completely adjustable and can be raised or lowered below the work surface
-              without even pulling out a tool. This feature is primarily used to prevent the stock from pinching the blade to the point where the
-              kickback could occur.
+              ​
+              <a href="https://www.rockler.com/how-to/riving-blade-important-shop-safety/" target="_blank">
+                Riving Knife
+              </a>{" "}
+              - the Bosch 4100 comes with a riving knife that sits directly behind the blade. The knife is completely adjustable and can be raised or
+              lowered below the work surface without even pulling out a tool. This feature is primarily used to prevent the stock from pinching the
+              blade to the point where the kickback could occur.
             </li>
             <li>
-              <a href="http://www.popularwoodworking.com/woodworking-blogs/chris-schwarz-blog/table-saw-guards-pass-and-fail">Blade Guard</a> - Like
-              the riving knife no tools are needed to attach and detach the blade guard. This bulky contraption covers the blade so that if you do get
-              into a kickback situation and your hands are heading towards the blade, there will be some plastic there to prevent contact with it.
+              <a href="http://www.popularwoodworking.com/woodworking-blogs/chris-schwarz-blog/table-saw-guards-pass-and-fail" target="_blank">
+                Blade Guard
+              </a>{" "}
+              - Like the riving knife no tools are needed to attach and detach the blade guard. This bulky contraption covers the blade so that if you
+              do get into a kickback situation and your hands are heading towards the blade, there will be some plastic there to prevent contact with
+              it.
             </li>
             <li>
-              <a href="https://www.thespruce.com/what-are-anti-kickback-pawls-3536813">Anti-Kickback Pawls</a> - The last feature, that once again
-              requires no tools for attachment, is the anti-kickback pawls. These pawls connect behind the blade and have metal serrations that grip a
-              workpiece should it start to move quickly in the wrong direction.
+              <a href="https://www.thespruce.com/what-are-anti-kickback-pawls-3536813" target="_blank">
+                Anti-Kickback Pawls
+              </a>{" "}
+              - The last feature, that once again requires no tools for attachment, is the anti-kickback pawls. These pawls connect behind the blade
+              and have metal serrations that grip a workpiece should it start to move quickly in the wrong direction.
             </li>
           </ul>
           <p>
@@ -156,8 +164,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h3>Cutting with a Sled</h3>
           <p>
             Most of the cuts I make on the table saw involve the use of a{" "}
-            <a href="https://www.familyhandyman.com/tools/table-saws/crosscuts-with-a-table-saw-sled/view-all">sled</a>. Down the road, I'm going to
-            do a post on making a table saw sled, but for now, I'd like to provide some insight into how this setup works with the Bosch 4100.
+            <a href="https://www.familyhandyman.com/tools/table-saws/crosscuts-with-a-table-saw-sled/view-all" target="_blank">
+              sled
+            </a>
+            . Down the road, I'm going to do a post on making a table saw sled, but for now, I'd like to provide some insight into how this setup
+            works with the Bosch 4100.
           </p>
           <p>
             The setup that I use involves a sled that straddles the blade and rides in the saws two miter tracks. I built the sled out of 3/4" MDF
@@ -195,9 +206,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h3>Final Thoughts on the Bosch 4100</h3>
           <p>
             I am a huge fan. The saw not only meets my limited space constraint perfectly (The{" "}
-            <a href="https://www.boschtools.com/us/en/boschtools-ocs/table-saw-stands-ts2100-129399-p">Gravity Rise Stand</a> is amazing), but it
-            delivers on performance. The saw handles dense material with ease, it accommodates my dado stack with more than adequate power and it has
-            safety features in place that allow me to use the tools without constantly worrying about my safety.
+            <a href="https://www.boschtools.com/us/en/boschtools-ocs/table-saw-stands-ts2100-129399-p" target="_blank">
+              Gravity Rise Stand
+            </a>{" "}
+            is amazing), but it delivers on performance. The saw handles dense material with ease, it accommodates my dado stack with more than
+            adequate power and it has safety features in place that allow me to use the tools without constantly worrying about my safety.
           </p>
           <p>
             Shortfalls, while in my opinion limited, do exist for the product, however. It is not a cabinet saw - don't even try to compare them.

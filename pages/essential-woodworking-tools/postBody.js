@@ -52,12 +52,14 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             <strong>
-              <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden">Raise.com</a>
+              <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden" target="_blank">
+                Raise.com
+              </a>
             </strong>{" "}
             - Raise is an interesting site where individuals can buy and sell gift cards at a discount. Gift Cards for stores like Lowe's and Home
             Depot typically go for 3-5% below face, not too exciting. But Sear's and Harbor Freight are usually between 10-20% off.
           </p>
-          <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden">
+          <a href="https://www.raise.com/buy-gift-cards?category=HomeandGarden" target="_blank">
             <ProductImage
               src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Raise-Screen.png"
               alt="Raise"
@@ -72,7 +74,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             compel me to purchase on their own. But if you get an extra 3-5% cash back over your entire $250 budget, it can add up to an extra hand
             tool for doing nothing more than using their link to an online store.
           </p>
-          <a href="https://www.ebates.com/home-garden-tools/power-hand-tools">
+          <a href="https://www.ebates.com/home-garden-tools/power-hand-tools" target="_blank">
             <ProductImage
               src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Ebates-Screen.png"
               alt="Ebates"
@@ -81,13 +83,15 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </a>
           <p>
             <strong>
-              <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324">Slickdeals.net</a>
+              <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324" target="_blank">
+                Slickdeals.net
+              </a>
             </strong>{" "}
             - I love slickdeals. I've been a user for nearly 15 years. They have a sub forum dedicated to tool deals. Most of the deals are online and
             it is not uncommon at all to save 25% - 50% off retail with the deals on the site. The link above takes you directly to tool specific
             deals on the slickdeals forums.
           </p>
-          <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324">
+          <a href="https://slickdeals.net/forums/forumdisplay.php?f=9&#x26;intagid%5B%5D=324" target="_blank">
             <ProductImage
               src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522292/TimberTools/Slickdeals-Screen.png"
               alt="Slickdeals"
@@ -183,7 +187,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             These basics are going to set you back about $180, leaving you with $320 left to work with. We are going to be leaving behind two hand
             powered tools from the $250 shop and upgrading to powered alternatives. This should lead to more consistent results, more enjoyable
             builds, and increased efficiency. These are all goods things that only the biggest fans of{" "}
-            <a href="http://www.pbs.org/woodwrightsshop/home/">The Woodwright's Shop</a> would argue with.
+            <a href="http://www.pbs.org/woodwrightsshop/home/" target="_blank">
+              The Woodwright's Shop
+            </a>{" "}
+            would argue with.
           </p>
           <h2>​Upgrades from the $250 Shop</h2>
           <p>
@@ -193,9 +200,13 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             wood worker will throw at it.
           </p>
           <p>
-            Second, <a href="https://en.wikipedia.org/wiki/Kesuke_Miyagi">Kesuke Miyagi</a> will probably roll over in his grave - but hand sanding a
-            large work piece isn't my idea of an enjoyable hobby. Luckily, a decent random orbital sander isn't all that expensive. This{" "}
-            <InContentProductLink href="https://amzn.to/2nYK6qz" text="SKIL sander" /> is highly rated and priced at just over $40.
+            Second,{" "}
+            <a href="https://en.wikipedia.org/wiki/Kesuke_Miyagi" target="_blank">
+              Kesuke Miyagi
+            </a>{" "}
+            will probably roll over in his grave - but hand sanding a large work piece isn't my idea of an enjoyable hobby. Luckily, a decent random
+            orbital sander isn't all that expensive. This <InContentProductLink href="https://amzn.to/2nYK6qz" text="SKIL sander" /> is highly rated
+            and priced at just over $40.
           </p>
           <p>
             These two upgrades <strong>will</strong> make this a more enjoyable hobby. The total outlay at this point is $330. Let's take a look at
@@ -205,9 +216,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             One of the most heavily used tools in your shop will be your table saw. It is absolutely essential for ripping stock to size, working with
             composite material (like plywood and MDF), and venturing into the world of{" "}
-            <a href="https://www.tablesawcentral.com/the-ultimate-list-of-table-saw-jigs/">wood working jigs</a>. Budget is a limiting factor in a
-            $500 build, but at $150 it is hard to pass up adding this <InContentProductLink href="https://amzn.to/2oWLH14" text="Craftsman saw" /> to
-            your shop - even with limited funds.
+            <a href="https://www.tablesawcentral.com/the-ultimate-list-of-table-saw-jigs/" target="_blank">
+              wood working jigs
+            </a>
+            . Budget is a limiting factor in a $500 build, but at $150 it is hard to pass up adding this{" "}
+            <InContentProductLink href="https://amzn.to/2oWLH14" text="Craftsman saw" /> to your shop - even with limited funds.
           </p>
 
           <YoutubeVideo videoId="sEb4FBb-zKQ" />
@@ -232,14 +245,20 @@ export default function index({ props = { title: null, coverImage: null, excerpt
               that expand the saws functionality. This is a major issue if you plan on buying after market jigs. Given that we are limiting the cost
               of this buildout to $500, I am guessing that after market jigs are probably low on the priority list. Your going to want jigs once you
               start researching what they enable you to do, my advice is to build your own - there are plenty of{" "}
-              <a href="https://www.pinterest.com/rongwallace/workshop-jig-plans/?lp=true">plans online</a>.<br />
+              <a href="https://www.pinterest.com/rongwallace/workshop-jig-plans/?lp=true" target="_blank">
+                plans online
+              </a>
+              .<br />
               <br />
             </li>
           </ol>
           <h2>Projects You'll be Equipped to Handle</h2>
           <p>
             At this point you will have the tools you need to attack most projects. Check out{" "}
-            <a href="https://www.pinterest.com/search/pins/?q=simple%20woodworking%20projects&#x26;rs=typed&#x26;term_meta%5B%5D=simple%7Ctyped&#x26;term_meta%5B%5D=woodworking%7Ctyped&#x26;term_meta%5B%5D=projects%7Ctyped">
+            <a
+              href="https://www.pinterest.com/search/pins/?q=simple%20woodworking%20projects&#x26;rs=typed&#x26;term_meta%5B%5D=simple%7Ctyped&#x26;term_meta%5B%5D=woodworking%7Ctyped&#x26;term_meta%5B%5D=projects%7Ctyped"
+              target="_blank"
+            >
               pinterest
             </a>{" "}
             for projects that use simple joinery, plain edges, and straight lines.
@@ -327,10 +346,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h2>Buying a Jointer and a Planer​</h2>
           <p>
             ​Buying rough cut lumber saves a ton of money. Buying lumber that has had all four sides surfaced (
-            <a href="http://www.thewoodwhisperer.com/articles/s2s-and-s4s-what-gives/">s4s</a>) will cost roughly 4 times as much as buying rough cut
-            lumber. Let's look at an example: I'm going to build a table that will require 50 board feet of oak. If I buy finished oak it will cost
-            around $5.5 / bf or $275. Alternatively, I can buy rough cut oak at $1.25/bf or ~$65. In this one project I've saved $210. That's enough
-            for a new power tool.
+            <a href="http://www.thewoodwhisperer.com/articles/s2s-and-s4s-what-gives/" target="_blank">
+              s4s
+            </a>
+            ) will cost roughly 4 times as much as buying rough cut lumber. Let's look at an example: I'm going to build a table that will require 50
+            board feet of oak. If I buy finished oak it will cost around $5.5 / bf or $275. Alternatively, I can buy rough cut oak at $1.25/bf or
+            ~$65. In this one project I've saved $210. That's enough for a new power tool.
           </p>
           <p>
             ​So, what do you need to get yourself ready to buy rough cut lumber. Ideally you will have 3 tools: a table saw (check), a jointer and a
@@ -480,7 +501,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             ​One tool that has been notably missing from the earlier builds is a router. There are so many reasons to own a router that I am not going
             to even try to list them. But if you want to get the creative juices flowing, take a look at this{" "}
-            <a href="https://www.pinterest.com/search/pins/?q=Router%20projects%20ideas&#x26;rs=guide&#x26;term_meta%5B%5D=ideas%7Cguide%7Cword%7C2&#x26;add_refine=ideas%7Cguide%7Cword%7C2">
+            <a
+              href="https://www.pinterest.com/search/pins/?q=Router%20projects%20ideas&#x26;rs=guide&#x26;term_meta%5B%5D=ideas%7Cguide%7Cword%7C2&#x26;add_refine=ideas%7Cguide%7Cword%7C2"
+              target="_blank"
+            >
               Pinterest
             </a>{" "}
             page. The important thing to know is that this versatile tool can help you accomplish a number of tasks, everything from finishing edges
@@ -496,16 +520,18 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             <Link href="/best-wood-router-reviews">
               <a>written about routers</a>
             </Link>{" "}
-            on the site before and my favorite is the <a href="https://amzn.to/2nvLGUI">Bosch 1617</a>​. It is light enough that you can control it
-            when using it handheld, yet powerful enough that it won't have any problems when you mount it under a table. On top of that, it comes with
-            a plunge base which makes it significantly easier to use handheld. The package clocks in at ~$190.
+            on the site before and my favorite is the <InContentProductLink href="https://amzn.to/2nvLGUI" text="Bosch 1617" />. It is light enough
+            that you can control it when using it handheld, yet powerful enough that it won't have any problems when you mount it under a table. On
+            top of that, it comes with a plunge base which makes it significantly easier to use handheld. The package clocks in at ~$190.
           </p>
           <p>
             To get the most out of your router, you are going to want a router table. You may find yourself asking if you really need one - if you do,{" "}
-            <a href="/why-you-need-a-router-table/">check this post out</a>.​ It's one of those purchases that you won't truly understand how valuable
-            it is until you have one. Given the budget of $2,500, I'd suggest looking at the{" "}
-            <InContentProductLink href="https://amzn.to/2nYmKkY" text="Bosch RA1171" /> ($150). If you want to see our favorite tables along with
-            write-ups, check{" "}
+            <Link href="/why-you-need-a-router-table/">
+              <a>check this post out</a>
+            </Link>
+            .​ It's one of those purchases that you won't truly understand how valuable it is until you have one. Given the budget of $2,500, I'd
+            suggest looking at the <InContentProductLink href="https://amzn.to/2nYmKkY" text="Bosch RA1171" /> ($150). If you want to see our favorite
+            tables along with write-ups, check{" "}
             <Link href="/router-table-reviews">
               <a>them out here.</a>
             </Link>
@@ -534,10 +560,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             ​In order to excel you are going to need to read up on jig building so that you can produce consistent repeatable cuts.{" "}
-            <a href="https://www.pinterest.com/TimberAndTools/woodworking-jigs/">Ideas for jigs</a> are a dime a dozen online and you could easily
-            lose a couple of hours browsing the hundreds of ideas people think up. A more economical approach would be to build your jigs as your
-            projects demand them. After you go through that exercise 4-5 times, you'll find you've accumulated quite the collection of jigs without
-            even trying.
+            <a href="https://www.pinterest.com/TimberAndTools/woodworking-jigs/" target="_blank">
+              Ideas for jigs
+            </a>{" "}
+            are a dime a dozen online and you could easily lose a couple of hours browsing the hundreds of ideas people think up. A more economical
+            approach would be to build your jigs as your projects demand them. After you go through that exercise 4-5 times, you'll find you've
+            accumulated quite the collection of jigs without even trying.
           </p>
 
           <h2>Reviewing The Options</h2>

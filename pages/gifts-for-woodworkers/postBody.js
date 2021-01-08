@@ -85,9 +85,6 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>Kreg is a powerful brand in the woodworking space that is synonymous with high quality and innovative tools.</p>
           <BuyButton productLink="https://amzn.to/2rXWeKW" />
 
-          <p>
-            <a href="https://amzn.to/2rXWeKW">Check Prices and Reviews</a>
-          </p>
           <h3>Gifts for about $100</h3>
           <p>Extra Safe Push Tools | Cost: ~$100</p>
           <ProductImage
@@ -160,7 +157,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             If you do go this route (pun intended) also consider a router table to mount the router in. We wrote up an{" "}
-            <Link href="/router-table-reviews">
+            <Link href="https://www.timberandtools.com/router-table-reviews">
               <a>article about our favorites</a>
             </Link>{" "}
             a while back.

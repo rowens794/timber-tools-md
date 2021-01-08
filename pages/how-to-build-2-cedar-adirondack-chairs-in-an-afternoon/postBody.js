@@ -53,7 +53,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             While I could have built the chairs based off the idea in my head, I didn't want to have to guess at heights and angles. I decided to base
-            my design off of these <a href="http://pop.h-cdn.co/assets/cm/15/06/54d112e5a5fd4_-_PMX0706Adiron.pdf">Popular Mechanic's designs</a>.
+            my design off of these{" "}
+            <a href="http://pop.h-cdn.co/assets/cm/15/06/54d112e5a5fd4_-_PMX0706Adiron.pdf" target="_blank">
+              Popular Mechanic's designs
+            </a>
+            .
           </p>
           <h3>Tools Needed for the Build</h3>
           <p>

@@ -64,14 +64,20 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             setting up the cut would make you question why you would attempt it without a table. On a side note the folks that produced this video
             over at Wood Workers Journal have a ton of great resources on their website: of particular note for this post is their article on creating
             a router table attachment for your table saw. You can find that post{" "}
-            <a href="http://www.woodworkersjournal.com/make-router-table-extension-table-saw/">here</a>.
+            <a href="http://www.woodworkersjournal.com/make-router-table-extension-table-saw/" target="_blank">
+              here
+            </a>
+            .
           </p>
           <h2>A New World of Jigs</h2>
           <p>
             The T track that comes standard on nearly all router tables opens up the potential for a wide variety of jigs to be paired with you table.
             The most obvious would be a simple crosscut jig that allows quick, repeatable, and safe cuts. But the options really do become endless. To
             get your brain turning check out{" "}
-            <a href="http://www.finewoodworking.com/2008/07/28/five-essential-router-table-jigs-in-action">these five jigs</a>, from Fine Woodworking.
+            <a href="http://www.finewoodworking.com/2008/07/28/five-essential-router-table-jigs-in-action" target="_blank">
+              these five jigs
+            </a>
+            , from Fine Woodworking.
           </p>
           <h2>There you have it</h2>
           <p>

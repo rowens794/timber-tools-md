@@ -28,9 +28,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
 
           <h2>What Is A Brad Nailer?</h2>
           <p>
-            A brad nailer is an <a href="https://en.wikipedia.org/wiki/Pneumatic_tool">air powered tool</a> that fastens materials with 'brads' hence
-            the name. It's a tool that helps you put thin nails, or brads, into different types of materials. In a world full of different types of
-            pneumatic nailers, brad nailers are one of the more popular.
+            A brad nailer is an{" "}
+            <a href="https://en.wikipedia.org/wiki/Pneumatic_tool" target="_blank">
+              air powered tool
+            </a>{" "}
+            that fastens materials with 'brads' hence the name. It's a tool that helps you put thin nails, or brads, into different types of
+            materials. In a world full of different types of pneumatic nailers, brad nailers are one of the more popular.
           </p>
           <p>
             Since they all look the same and use similar nails, brad nailers are often put into the same category as finish nailers and nail guns.
@@ -43,11 +46,17 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             I've come across a lot of topics on web forums around '
-            <a href="http://www.doityourself.com/forum/electrical-power-machinery-ac-dc-hand-power-tools-sharpening/156604-brad-vs-finish-nailer.html">
+            <a
+              href="http://www.doityourself.com/forum/electrical-power-machinery-ac-dc-hand-power-tools-sharpening/156604-brad-vs-finish-nailer.html"
+              target="_blank"
+            >
               brad nailer vs. finish nailer
             </a>
-            ' and '<a href="http://www.nailgundepot.com/blog/the-difference-between-brad-nails-vs-finish-nails.html">brad nail vs. finish nail</a>' -
-            let's look at how you differentiate between these two tools and why you'd choose one over the other.
+            ' and '
+            <a href="http://www.nailgundepot.com/blog/the-difference-between-brad-nails-vs-finish-nails.html" target="_blank">
+              brad nail vs. finish nail
+            </a>
+            ' - let's look at how you differentiate between these two tools and why you'd choose one over the other.
           </p>
           <h3>Brad Nail Vs. Finish Nail - Size And Gauge</h3>
           <p>
@@ -68,9 +77,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <h3>Brad Nailer Uses</h3>
           <p>
             While finish nailers are exclusively used for 'finishing' jobs (as their name implies), brad nailers are used in many different
-            applications. One of the most common is <a href="https://www.familyhandyman.com/skills/carpentry/trim-carpentry">trim carpentry</a>, where
-            woodworkers use brad nailers to nail frames, trim, and mouldings. Brad nails have a large and flat head which does not make them the most
-            visually appealing - however, a lot functional for many types of work and nailing out things that are out of sight.
+            applications. One of the most common is{" "}
+            <a href="https://www.familyhandyman.com/skills/carpentry/trim-carpentry" target="_blank">
+              trim carpentry
+            </a>
+            , where woodworkers use brad nailers to nail frames, trim, and mouldings. Brad nails have a large and flat head which does not make them
+            the most visually appealing - however, a lot functional for many types of work and nailing out things that are out of sight.
           </p>
           <p>
             One of the most common brad nailer uses is temporarily adhering materials together. For example, a brad is strong enough to hold two

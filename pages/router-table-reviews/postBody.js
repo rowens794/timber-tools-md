@@ -69,7 +69,10 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             The <strong>RA1181 Benchtop Router Table</strong> features 27" x 18" aluminum work surface. At 30 lbs it is a weighty (especially once you
             add a router), yet reasonably portable option. The aluminum fence receives uniformly high praise from users of the product. To ensure your
             router fits check out the compatibility list{" "}
-            <a href="https://www.cpotools.com/on/demandware.static/-/Sites-cpo-master-catalog/default/dw75b56d18/product_media/bsh/bshnra1181/documents/bshnra1181_Compatible%20Routers.pdf">
+            <a
+              href="https://www.cpotools.com/on/demandware.static/-/Sites-cpo-master-catalog/default/dw75b56d18/product_media/bsh/bshnra1181/documents/bshnra1181_Compatible%20Routers.pdf"
+              target="_blank"
+            >
               <strong>here</strong>
             </a>
             .
@@ -110,11 +113,14 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           <p>
             The fence is identical to the RA1181 model, which again is a very highly rated fence. The table includes two feather boards, a clear
             guard, three mounting plates, and two shims. If you want to check out a list of compatible routers you can find that{" "}
-            <a href="https://www.cpotools.com/on/demandware.static/-/Sites-cpo-master-catalog/default/dw75b56d18/product_media/bsh/bshnra1181/documents/bshnra1181_Compatible%20Routers.pdf">
+            <a
+              href="https://www.cpotools.com/on/demandware.static/-/Sites-cpo-master-catalog/default/dw75b56d18/product_media/bsh/bshnra1181/documents/bshnra1181_Compatible%20Routers.pdf"
+              target="_blank"
+            >
               <strong>here</strong>
             </a>
             . Additionally, if you want to browse through the manual for the RA1171, you can check that out on Bosch's site at this{" "}
-            <a href="https://www.boschtools.com/us/en/ocsmedia/r00287v1.pdf">
+            <a href="https://www.boschtools.com/us/en/ocsmedia/r00287v1.pdf" target="_blank">
               <strong>link</strong>
             </a>
             .
@@ -157,7 +163,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
               <strong>here</strong>
             </a>
             , and the fence manual{" "}
-            <a href="https://www.kregtool.com/webres/Files/PRS1015-MANUAL.pdf">
+            <a href="https://www.kregtool.com/webres/Files/PRS1015-MANUAL.pdf" target="_blank">
               <strong>here</strong>
             </a>
             .
@@ -187,7 +193,7 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             You can check out the manual for the ProTop table{" "}
-            <a href="http://go.rockler.com/tech/RTD10000485AC.pdf">
+            <a href="http://go.rockler.com/tech/RTD10000485AC.pdf" target="_blank">
               <strong>here</strong>
             </a>
             . Below I've include a review video which was very helpful for me as I was learning about the table.

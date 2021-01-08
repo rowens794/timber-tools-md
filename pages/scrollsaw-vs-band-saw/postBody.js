@@ -47,8 +47,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             You should consider buying a scroll saw if you're going to make small projects to sell at craft shows or on a site like{" "}
-            <a href="https://www.etsy.com/">Etsy</a>. You'll be able to make artwork, jewelry and so much more. Most scroll saws can cut material up
-            to about 1-½" thick, which is all you need for the majority of craft projects.
+            <a href="https://www.etsy.com/" target="_blank">
+              Etsy
+            </a>
+            . You'll be able to make artwork, jewelry and so much more. Most scroll saws can cut material up to about 1-½" thick, which is all you
+            need for the majority of craft projects.
           </p>
           <h2>Reasons to Choose a Bandsaw</h2>
           <p>
@@ -78,10 +81,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             shapes.
           </p>
           <p>
-            <a href="https://woodgears.ca/bandsaw/resaw.html">Resaw bandsaws</a> are generally big, powerful tools that are designed for slicing thick
-            boards into thin veneers. These saws have strong motors, wide blades and are really good at making straight cuts. Instrument makers use
-            resaw bandsaws to cut thin veneers from solid wood to create the sound boards and backs for guitars, violins and other musical
-            instruments.
+            <a href="https://woodgears.ca/bandsaw/resaw.html" target="_blank">
+              Resaw bandsaws
+            </a>{" "}
+            are generally big, powerful tools that are designed for slicing thick boards into thin veneers. These saws have strong motors, wide blades
+            and are really good at making straight cuts. Instrument makers use resaw bandsaws to cut thin veneers from solid wood to create the sound
+            boards and backs for guitars, violins and other musical instruments.
           </p>
           <p>
             Big resaw bandsaws can also cut curves, but when fitted with wide blades, they're limited to large arcs. You can usually attach a smaller
@@ -148,8 +153,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             need most.
           </p>
           <p>
-            For <a href="http://scrollsawer.com/">craft projects, artwork and small workpieces</a>, get yourself a good scroll saw. If you'll be
-            building furniture, molding, cabinets or doing home improvements, buy a bandsaw.
+            For{" "}
+            <a href="http://scrollsawer.com/" target="_blank">
+              craft projects, artwork and small workpieces
+            </a>
+            , get yourself a good scroll saw. If you'll be building furniture, molding, cabinets or doing home improvements, buy a bandsaw.
           </p>
         </div>
       </article>

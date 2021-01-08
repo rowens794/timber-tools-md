@@ -63,8 +63,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             I mentioned the fact that you can change bits above the table earlier, but the easy with which you can change bits is something to behold.
-            For instance, the <a href="http://lumberjocks.com/reviews/1260">Woodpeckers PRL-V2</a> includes a spring loaded assist lift wrench that
-            enables you to completely raise or lower your router motor in less than 5 seconds.
+            For instance, the{" "}
+            <a href="http://lumberjocks.com/reviews/1260" target="_blank">
+              Woodpeckers PRL-V2
+            </a>{" "}
+            includes a spring loaded assist lift wrench that enables you to completely raise or lower your router motor in less than 5 seconds.
           </p>
           <h3>Accurate Cuts Made Easy</h3>
           <p>
@@ -111,10 +114,20 @@ export default function index({ props = { title: null, coverImage: null, excerpt
           </p>
           <p>
             I want to provide a break down of what it is you'll be looking at before we dig into comparisons. First, there are 4 major brands - the
-            first two <a href="http://www.woodpeck.com/prlv2.html">Woodpecker</a> and <a href="https://www.jessem.com/index.html">Jessem </a>are
-            manufacturers that build lifts that fit a wide range of tables and motors, the third, Bench Dog, builds a lift specifically for it's
+            first two{" "}
+            <a href="http://www.woodpeck.com/prlv2.html" target="_blank">
+              Woodpecker
+            </a>{" "}
+            and{" "}
+            <a href="https://www.jessem.com/index.html" target="_blank">
+              Jessem{" "}
+            </a>
+            are manufacturers that build lifts that fit a wide range of tables and motors, the third, Bench Dog, builds a lift specifically for it's
             router tables, it has a non-standard 8 1/4" faceplate that's not going to fit in other tables. Finally, Incra modifies the Woodpecker and
-            Jessem lifts so that the lifts can accomodate <a href="http://www.incra.com/router_system_accessories-mlp.html">Incra's MagnaLOCK</a>{" "}
+            Jessem lifts so that the lifts can accomodate{" "}
+            <a href="http://www.incra.com/router_system_accessories-mlp.html" target="_blank">
+              Incra's MagnaLOCK
+            </a>{" "}
             reducing ring system (more on this later). Incra is not building the lifts, mearly doing a bit of machining on the lifts that Woodpeckers
             and Jessem produce.
           </p>
@@ -272,9 +285,11 @@ export default function index({ props = { title: null, coverImage: null, excerpt
             The Mast-R-Lift is the bigger version of of JessEm's lift duo. You will undoubtedly ​find yourself asking "why should I choose the
             Mast-R-Lift vs the Rout-R-Lift". The answer is a more accomodating motor clamping system, specifically one that can hold larger motors up
             to 4.2" in diameter and an improved surface plate{" "}
-            <a href="http://www.sawmillcreek.org/showthread.php?31568-Aluminum-vs-Phenolic-Router-Plates">anodized aluminum vs. phenolic</a>. Some say
-            that build quality is better on the Mast-R-Lift, but both are solidly built. For my money, the reason you would upgrade is because you
-            need to install a larger motor.
+            <a href="http://www.sawmillcreek.org/showthread.php?31568-Aluminum-vs-Phenolic-Router-Plates" target="_blank">
+              anodized aluminum vs. phenolic
+            </a>
+            . Some say that build quality is better on the Mast-R-Lift, but both are solidly built. For my money, the reason you would upgrade is
+            because you need to install a larger motor.
           </p>
 
           <YoutubeVideo videoId="8E2PHldPc98" />
@@ -294,9 +309,12 @@ export default function index({ props = { title: null, coverImage: null, excerpt
 
           <h3>​Be careful if Your Considering the Bench Dog 40-150 Router Lift</h3>
           <p>
-            ​The <a href="https://timberlinetools.com/Bench-Dog-40-150-Prolift-New-Model-p/bench%20dog%2040-150.htm">Bench Dog Router lift</a> is
-            absolutely in the same class as the other lifts that we are looking at, however, it is made specifically for Bench Dog Router tables that
-            have an 8 1/4" plate opening. This is not going to fit on most other tables. While the lift is robust and has all the typical
+            ​The{" "}
+            <a href="https://timberlinetools.com/Bench-Dog-40-150-Prolift-New-Model-p/bench%20dog%2040-150.htm" target="_blank">
+              Bench Dog Router lift
+            </a>{" "}
+            is absolutely in the same class as the other lifts that we are looking at, however, it is made specifically for Bench Dog Router tables
+            that have an 8 1/4" plate opening. This is not going to fit on most other tables. While the lift is robust and has all the typical
             functionality you would expect, it doesn't offer the same level of convenience as the Woodpeckers lift. I think this is a good choice if
             you already own a Benchdog table and you want to stay in the same brand with your lift.
           </p>
