@@ -53,8 +53,8 @@ export default function index({
             locking collar, which makes it easy to use and keeps it secure. And
             the best part? It can be used on a variety of materials, from wood
             to metal to plastic. So whether you're building a wooden bookshelf
-            or installing new hardware on a metal cabinet, the DrillMate has got
-            you covered.
+            or installing new hardware on a metal cabinet, the DrillMate has you
+            covered.
           </p>
 
           <p>
