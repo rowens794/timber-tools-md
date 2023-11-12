@@ -40,8 +40,9 @@ export default function Index() {
               we believe would be helpful to you.  There are no incremental
               charges for our readers to make a purchase through our affiliate
               links, but we do collect a small fee for transactions that
-              originate from our links.  If you do enjoy our material and you
-              see us talking about a tool you are interested in, please purchase
+              originate from our links. As an Amazon Associate I earn from
+              qualifying purchases. If you do enjoy our material and you see us
+              talking about a tool you are interested in, please purchase
               through our link - it'll help us to continue to bring great
               content to you. We are a participant in the Amazon Services LLC
               Associates Program, an affiliate advertising program designed to
