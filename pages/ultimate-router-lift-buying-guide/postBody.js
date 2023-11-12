@@ -240,7 +240,7 @@ export default function index({
           </p>
           <p>​All depending on PRL-V2 Model (350/414/420)</p>
 
-          <BuyButton productLink="https://amzn.to/2o8pVWq" />
+          <BuyButton productLink="https://amzn.to/3ucQiCc" />
 
           <h3>Bench Dog</h3>
           <p>40-150 ProLift</p>
@@ -296,7 +296,7 @@ export default function index({
           <p>​Makita RF1101 &#x26; RD1101</p>
           <p>​Milwaukee 56XX</p>
           <p>​Porter Cable 7518, 690-699, 890-899</p>
-          <BuyButton productLink="https://amzn.to/2ouzQc5" />
+          <BuyButton productLink="https://amzn.to/40Brxf9" />
 
           <h2>​The Need-To-Knows About these Lifts</h2>
           <p>
