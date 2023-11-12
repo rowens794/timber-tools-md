@@ -16,7 +16,10 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <meta name="description" content="The place to get unbiased and entertaining information about woodworking and tools." />
+          <meta
+            name="description"
+            content="The place to get unbiased and entertaining information about woodworking and tools."
+          />
           <title>Timber & Tools</title>
         </Head>
         <div style={{ maxWidth: "1140px", margin: "auto" }}>
@@ -43,7 +46,9 @@ export default function Index() {
 function MoreStories({ posts }) {
   return (
     <section>
-      <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">More Stories</h2>
+      <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
+        More Stories
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-32">
         {posts.map((post) => (
           <PostPreview
@@ -65,10 +70,16 @@ function PostPreview({ title, coverImage, date, excerpt, slug }) {
   return (
     <div>
       <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
+        <CoverImage
+          slug={slug}
+          title={title}
+          src={coverImage}
+          height={278}
+          width={556}
+        />
       </div>
       <h3 className="text-3xl mb-3 leading-snug">
-        <Link as={`/${slug}`} href="/[slug]">
+        <Link legacyBehavior as={`/${slug}`} href="/[slug]">
           <a className="hover:underline" style={{ color: "black" }}>
             {title}
           </a>

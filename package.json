@@ -22,9 +22,9 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.4",
-    "postcss": "8.1.10",
-    "postcss-preset-env": "^6.7.0",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "postcss-preset-env": "latest",
     "tailwindcss": "2.0.1"
   },
   "license": "MIT"

@@ -8,7 +8,7 @@ export default function Intro() {
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
       <div className={styles.grid}>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="hover:underline">
             <Image
               src="https://res.cloudinary.com/dfebwzrhb/image/upload/v1609522289/TimberTools/Logo.jpg"
@@ -20,7 +20,7 @@ export default function Intro() {
         </Link>
 
         <div className={styles.buildAShop}>
-          {/* <Link href="/">
+          {/* <Link legacyBehavior href="/">
             <a className={styles.buildAShopButton}>Build Your Shop on A Budget</a>
           </Link> */}
         </div>

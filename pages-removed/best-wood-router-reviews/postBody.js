@@ -3,11 +3,11 @@ import Link from "next/link";
 import Head from "next/head";
 
 import styles from "../../postComponents/postStyles.module.css";
-import HeroImage from "../postComponents/heroImage";
-import PostTitle from "../postComponents/postTitle";
-import ProductImage from "../postComponents/productImg";
-import BuyButton from "../postComponents/buyButton";
-import InContentProductLink from "../postComponents/inContentProductLink";
+import HeroImage from "../../postComponents/heroImage";
+import PostTitle from "../../postComponents/postTitle";
+import ProductImage from "../../postComponents/productImg";
+import BuyButton from "../../postComponents/buyButton";
+import InContentProductLink from "../../postComponents/inContentProductLink";
 
 export default function index({
   props = { title: null, coverImage: null, excerpt: null },
@@ -22,7 +22,7 @@ export default function index({
       </Head>
       <article>
         <div className={styles.postContainer}>
-          <HeroImage img={coverImage} />
+          <HeroImage img={coverImage} title={title} />
           <PostTitle title={title} />
           <p>
             If you've come looking for the best wood router reviews of{" "}
@@ -66,7 +66,10 @@ export default function index({
               absolutely essential for getting clean cuts with larger bits, and
               the ability to use large bits is the primary reason why you pay up
               for a 3 1/4 HP motor. (Wood Magazine has a great{" "}
-              <a href="http://www.woodmagazine.com/woodworking-tips/techniques/routing/speed">
+              <a
+                href="http://www.woodmagazine.com/woodworking-tips/techniques/routing/speed"
+                target="_blank"
+              >
                 about this.
               </a>
               )
@@ -86,10 +89,7 @@ export default function index({
             is possible to use this router handheld, you will get the most out
             of it by sticking it under a table. (I took a look at my favorite
             tables{" "}
-            <Link
-              legacyBehavior
-              href="https://www.timberandtools.com/router-table-reviews"
-            >
+            <Link legacyBehavior href="/router-table-reviews">
               here
             </Link>
             )

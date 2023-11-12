@@ -5,7 +5,9 @@ export default function MoreStories({ posts }) {
   return (
     <section>
       <div className={styles.container}>
-        <h2 className="mb-8 text-4xl md:text-4xl font-bold tracking-tighter leading-tight">More Stories</h2>
+        <h2 className="mb-8 text-4xl md:text-4xl font-bold tracking-tighter leading-tight">
+          More Stories
+        </h2>
         {posts.map((post) => (
           <Post
             key={post.slug}
@@ -25,7 +27,7 @@ export default function MoreStories({ posts }) {
 const Post = (data) => {
   return (
     <div className={styles.linkContainer}>
-      <Link href={`/${data.slug}`}>
+      <Link legacyBehavior href={`/${data.slug}`}>
         <a className={styles.title}>{data.title}</a>
       </Link>
     </div>
